@@ -24,10 +24,11 @@ package {
 			for(var i:int=0;i<1;i++){
 				ed.dispatchEvent(evt);
 			}
-			op.text = String(getTimer()-st)+'ms:'+n;
+			op.text += String(getTimer()-st)+'ms:'+n;
 		}
 
 		private function testOnce(e:Event):void{
+			op.appendText(n.toString());
 			n++;
 			ed.once(Event.CHANGE, testOnce);
 		}
