@@ -1,10 +1,10 @@
 ﻿package {
-	import flash.display.DisplayObject;
 	import doot.model.UserInput;
 	import doot.sprite.SpriteSelectable;
 	import doot.sprite.SpriteSelected;
 	import doot.sprite.SpriteSelectedHighlight;
 
+	import flash.display.DisplayObject;
 	import flash.display.Sprite;
 	import flash.events.Event;
 	/**
@@ -16,7 +16,7 @@
 
 		public function MainSpriteSelectable(){
 			UserInput.instance().setRoot(this);
-			UserInput.instance().when(UserInput.MOUSE_UP, this , deselect);
+			UserInput.instance().when(UserInput.MOUSE_UP, deselect);
 			
 			spriteSelectHighlight = new SpriteSelectedHighlight();
 
@@ -28,7 +28,7 @@
 				mc.graphics.drawCircle(0, 0, 30);
 			}
 
-			SpriteSelected.instance().when(SpriteSelected.SELECT, this, bringToFront);
+			SpriteSelected.instance().when(SpriteSelected.SELECT, bringToFront);
 		}
 
 		private function deselect(e:Event):void{

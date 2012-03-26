@@ -1,0 +1,952 @@
+Abc:
+  20 method(s), 0 metadata, 4 type(s), 3 script(s)  
+  ConstantPool:  
+    2 integer(s):    
+      0      
+      3355443      
+    1 uint(s):    
+      0      
+    1 double(s):    
+      NaN      
+    65 string(s):    
+      "null"      
+      ""      
+      "String"      
+      "Object"      
+      "Function"      
+      "com.fastframework.core:IFASTEventDispatcher/com.fastframework.core:IFASTEventDispatcher:when"      
+      "com.fastframework.core:IFASTEventDispatcher/com.fastframework.core:IFASTEventDispatcher:once"      
+      "com.fastframework.core:IFASTEventDispatcher/IFASTEventDispatcher"      
+      "com.fastframework.core:FASTEventDispatcher/when"      
+      "void"      
+      "flash.events"      
+      "Event"      
+      "com.fastframework.core:FASTEventDispatcher/once"      
+      "com.fastframework.core:FASTEventDispatcher/private:removeOnceEventListener"      
+      "com.fastframework.core:FASTEventDispatcher/FASTEventDispatcher"      
+      "MainEventDispatcher/MainEventDispatcher"      
+      "MainEventDispatcher/private:click"      
+      "e"      
+      "MainEventDispatcher/private:testEventDispatcher"      
+      "MainEventDispatcher.as$1:AEventDispatcher/listen"      
+      "MainEventDispatcher.as$1:AEventDispatcher/AEventDispatcher"      
+      "com.fastframework.core"      
+      "IFASTEventDispatcher"      
+      "IEventDispatcher"      
+      "com.fastframework.core:IFASTEventDispatcher"      
+      "once"      
+      "when"      
+      "FASTEventDispatcher"      
+      "EventDispatcher"      
+      "com.fastframework.core:FASTEventDispatcher"      
+      "removeOnceEventListener"      
+      "MainEventDispatcher"      
+      "flash.display"      
+      "Sprite"      
+      "click"      
+      "testEventDispatcher"      
+      "ed"      
+      "MainEventDispatcher.as$1"      
+      "AEventDispatcher"      
+      "MainEventDispatcher.as$1:AEventDispatcher"      
+      "listen"      
+      "/project/doot-test/FAST;com/fastframework/core;IFASTEventDispatcher.as"      
+      "/project/doot-test/FAST;com/fastframework/core;FASTEventDispatcher.as"      
+      "eventType"      
+      "whichObject"      
+      "callback"      
+      "addEventListener"      
+      "once$0"      
+      "removeEventListener"      
+      "/project/doot-test/src;;MainEventDispatcher.as"      
+      "graphics"      
+      "beginFill"      
+      "drawRect"      
+      "stage"      
+      "MouseEvent"      
+      "CLICK"      
+      "trace"      
+      "CHANGE"      
+      "dispatchEvent"      
+      "test event"      
+      "type"      
+      "listener"      
+      "DisplayObject"      
+      "InteractiveObject"      
+      "DisplayObjectContainer"      
+    13 namespace(s):    
+      AbcNamespace(0,'null)      
+      AbcNamespace(22,')      
+      AbcNamespace(22,'flash.events)      
+      AbcNamespace(22,'com.fastframework.core)      
+      AbcNamespace(8,'com.fastframework.core:IFASTEventDispatcher)      
+      AbcNamespace(24,'com.fastframework.core:FASTEventDispatcher)      
+      AbcNamespace(5,'com.fastframework.core:FASTEventDispatcher)      
+      AbcNamespace(22,'flash.display)      
+      AbcNamespace(24,'MainEventDispatcher)      
+      AbcNamespace(5,'MainEventDispatcher)      
+      AbcNamespace(5,'MainEventDispatcher.as$1)      
+      AbcNamespace(24,'MainEventDispatcher.as$1:AEventDispatcher)      
+      AbcNamespace(23,'com.fastframework.core)      
+    3 namespaceset(s):    
+      AbcNSSet([AbcNamespace(0,'null)])      
+      AbcNSSet([AbcNamespace(22,'flash.events)])      
+      AbcNSSet([AbcNamespace(22,'com.fastframework.core)])      
+    40 multiname(s):    
+      AbcQName('null,AbcNamespace(0,'null))      
+      AbcQName('String,AbcNamespace(22,'))      
+      AbcQName('Object,AbcNamespace(22,'))      
+      AbcQName('Function,AbcNamespace(22,'))      
+      AbcQName('void,AbcNamespace(22,'))      
+      AbcQName('Event,AbcNamespace(22,'flash.events))      
+      AbcQName('IFASTEventDispatcher,AbcNamespace(22,'com.fastframework.core))      
+      AbcMultiname('IEventDispatcher,AbcNSSet([AbcNamespace(22,'flash.events)]))      
+      AbcQName('once,AbcNamespace(8,'com.fastframework.core:IFASTEventDispatcher))      
+      AbcQName('when,AbcNamespace(8,'com.fastframework.core:IFASTEventDispatcher))      
+      AbcQName('FASTEventDispatcher,AbcNamespace(22,'com.fastframework.core))      
+      AbcQName('EventDispatcher,AbcNamespace(22,'flash.events))      
+      AbcMultiname('IFASTEventDispatcher,AbcNSSet([AbcNamespace(22,'com.fastframework.core)]))      
+      AbcQName('removeOnceEventListener,AbcNamespace(5,'com.fastframework.core:FASTEventDispatcher))      
+      AbcQName('once,AbcNamespace(22,'))      
+      AbcQName('when,AbcNamespace(22,'))      
+      AbcQName('MainEventDispatcher,AbcNamespace(22,'))      
+      AbcQName('Sprite,AbcNamespace(22,'flash.display))      
+      AbcQName('click,AbcNamespace(5,'MainEventDispatcher))      
+      AbcQName('testEventDispatcher,AbcNamespace(5,'MainEventDispatcher))      
+      AbcQName('ed,AbcNamespace(5,'MainEventDispatcher))      
+      AbcQName('AEventDispatcher,AbcNamespace(5,'MainEventDispatcher.as$1))      
+      AbcQName('listen,AbcNamespace(22,'))      
+      AbcQName('addEventListener,AbcNamespace(22,'))      
+      AbcQName('eventType,AbcNamespace(23,'com.fastframework.core))      
+      AbcQName('callback,AbcNamespace(23,'com.fastframework.core))      
+      AbcQName('whichObject,AbcNamespace(23,'com.fastframework.core))      
+      AbcQName('removeEventListener,AbcNamespace(22,'))      
+      AbcQName('graphics,AbcNamespace(22,'))      
+      AbcQName('beginFill,AbcNamespace(22,'))      
+      AbcQName('drawRect,AbcNamespace(22,'))      
+      AbcQName('stage,AbcNamespace(22,'))      
+      AbcQName('MouseEvent,AbcNamespace(22,'flash.events))      
+      AbcQName('CLICK,AbcNamespace(22,'))      
+      AbcQName('trace,AbcNamespace(22,'))      
+      AbcQName('CHANGE,AbcNamespace(22,'))      
+      AbcQName('dispatchEvent,AbcNamespace(22,'))      
+      AbcQName('DisplayObject,AbcNamespace(22,'flash.display))      
+      AbcQName('InteractiveObject,AbcNamespace(22,'flash.display))      
+      AbcQName('DisplayObjectContainer,AbcNamespace(22,'flash.display))      
+  Functions:  
+    Function:    
+      Name:       
+      Return Type: AbcQName('void,AbcNamespace(22,'))      
+      Needs Arguments: false      
+      Needs Rest: false      
+      Needs Activation: false      
+      Has Optional Parameters: false      
+      Ignore Rest: false      
+      Is Native: false      
+      DXNS: false      
+      Has Parameter Names: true      
+      Parameters:      
+        Parameter:         
+          Name: com.fastframework.core:FASTEventDispatcher/when          
+          Type: AbcQName('Event,AbcNamespace(22,'flash.events))          
+          Optional: false          
+      Method Body:      
+        Max Stack: 3        
+        Locals: 2        
+        InitScopeDepth: 6        
+        MaxScopeDepth: 6        
+        Bytecode:        
+          operandStack: 3          
+          scopeStack:   0          
+          localCount:   2          
+          0 exception(s):          
+          5 operation(s):          
+                    +1|-0  FindPropStrict(AbcQName('removeOnceEventListener,AbcNamespace(5,'com.fastframework.core:FASTEventDispatcher)))            
+                    +1|-0  GetLex(AbcQName('eventType,AbcNamespace(23,'com.fastframework.core)))            
+                    +1|-0  GetLex(AbcQName('callback,AbcNamespace(23,'com.fastframework.core)))            
+                    +0|-3  CallPropVoid(AbcQName('removeOnceEventListener,AbcNamespace(5,'com.fastframework.core:FASTEventDispatcher)),2)            
+                    +0|-0  ReturnVoid()            
+  Metadata:  
+  Scripts:  
+    Script:    
+      Init:      
+        Method:        
+          Name:           
+          Return Type: AbcQName('null,AbcNamespace(0,'null))          
+          Needs Arguments: false          
+          Needs Rest: false          
+          Needs Activation: false          
+          Has Optional Parameters: false          
+          Ignore Rest: false          
+          Is Native: false          
+          DXNS: false          
+          Has Parameter Names: false          
+          Parameters:          
+          Method Body:          
+            Max Stack: 2            
+            Locals: 1            
+            InitScopeDepth: 1            
+            MaxScopeDepth: 2            
+            Bytecode:            
+              operandStack: 2              
+              scopeStack:   1              
+              localCount:   1              
+              0 exception(s):              
+              7 operation(s):              
+                        +1|-0  GetLocal(0)                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcMultiname('IFASTEventDispatcher,AbcNSSet([AbcNamespace(22,'com.fastframework.core)])))                
+                        +1|-0  PushNull()                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('IFASTEventDispatcher,AbcNamespace(22,'com.fastframework.core))]])                
+                        +0|-2  InitProperty(AbcQName('IFASTEventDispatcher,AbcNamespace(22,'com.fastframework.core)))                
+                        +0|-0  ReturnVoid()                
+      Traits:      
+        Trait Class:        
+          Name: AbcQName('IFASTEventDispatcher,AbcNamespace(22,'com.fastframework.core))          
+          Index: 0          
+          Type:          
+            Class:             
+              Method:              
+                Name:                 
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 0                  
+                  Locals: 1                  
+                  InitScopeDepth: 4                  
+                  MaxScopeDepth: 4                  
+                  Bytecode:                  
+                    operandStack: 0                    
+                    scopeStack:   0                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    1 operation(s):                    
+                              +0|-0  ReturnVoid()                      
+            Instance:            
+              Name: AbcQName('IFASTEventDispatcher,AbcNamespace(22,'com.fastframework.core))              
+              Is Sealed: true              
+              Is Final: false              
+              Is Interface true              
+              Nullable: true              
+              Interfaces:               
+                AbcMultiname('IEventDispatcher,AbcNSSet([AbcNamespace(22,'flash.events)]))                
+              Method:              
+                Name: com.fastframework.core:IFASTEventDispatcher/IFASTEventDispatcher                
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+              Traits:              
+                Trait Method:                
+                  Name: AbcQName('once,AbcNamespace(8,'com.fastframework.core:IFASTEventDispatcher))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Method:                  
+                    Name: com.fastframework.core:IFASTEventDispatcher/com.fastframework.core:IFASTEventDispatcher:once                    
+                    Return Type: AbcQName('null,AbcNamespace(0,'null))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: null                        
+                        Type: AbcQName('String,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Name: null                        
+                        Type: AbcQName('Object,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Name: null                        
+                        Type: AbcQName('Function,AbcNamespace(22,'))                        
+                        Optional: false                        
+                Trait Method:                
+                  Name: AbcQName('when,AbcNamespace(8,'com.fastframework.core:IFASTEventDispatcher))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Method:                  
+                    Name: com.fastframework.core:IFASTEventDispatcher/com.fastframework.core:IFASTEventDispatcher:when                    
+                    Return Type: AbcQName('null,AbcNamespace(0,'null))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: null                        
+                        Type: AbcQName('String,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Name: null                        
+                        Type: AbcQName('Object,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Name: null                        
+                        Type: AbcQName('Function,AbcNamespace(22,'))                        
+                        Optional: false                        
+    Script:    
+      Init:      
+        Method:        
+          Name:           
+          Return Type: AbcQName('null,AbcNamespace(0,'null))          
+          Needs Arguments: false          
+          Needs Rest: false          
+          Needs Activation: false          
+          Has Optional Parameters: false          
+          Ignore Rest: false          
+          Is Native: false          
+          DXNS: false          
+          Has Parameter Names: false          
+          Parameters:          
+          Method Body:          
+            Max Stack: 2            
+            Locals: 1            
+            InitScopeDepth: 1            
+            MaxScopeDepth: 4            
+            Bytecode:            
+              operandStack: 2              
+              scopeStack:   3              
+              localCount:   1              
+              0 exception(s):              
+              13 operation(s):              
+                        +1|-0  GetLocal(0)                
+                        +0|-1  PushScope()                
+                        +1|-0  GetScopeObject(0)                
+                        +1|-0  GetLex(AbcQName('Object,AbcNamespace(22,')))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('EventDispatcher,AbcNamespace(22,'flash.events)))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('EventDispatcher,AbcNamespace(22,'flash.events)))                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('FASTEventDispatcher,AbcNamespace(22,'com.fastframework.core))]])                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-2  InitProperty(AbcQName('FASTEventDispatcher,AbcNamespace(22,'com.fastframework.core)))                
+                        +0|-0  ReturnVoid()                
+      Traits:      
+        Trait Class:        
+          Name: AbcQName('FASTEventDispatcher,AbcNamespace(22,'com.fastframework.core))          
+          Index: 1          
+          Type:          
+            Class:             
+              Method:              
+                Name:                 
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 1                  
+                  Locals: 1                  
+                  InitScopeDepth: 4                  
+                  MaxScopeDepth: 5                  
+                  Bytecode:                  
+                    operandStack: 1                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    3 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  ReturnVoid()                      
+            Instance:            
+              Name: AbcQName('FASTEventDispatcher,AbcNamespace(22,'com.fastframework.core))              
+              Base: AbcQName('EventDispatcher,AbcNamespace(22,'flash.events))              
+              Is Sealed: true              
+              Is Final: false              
+              Is Interface false              
+              Nullable: true              
+              Protected Namespace: AbcNamespace(24,'com.fastframework.core:FASTEventDispatcher)              
+              Interfaces:               
+                AbcMultiname('IFASTEventDispatcher,AbcNSSet([AbcNamespace(22,'com.fastframework.core)]))                
+              Method:              
+                Name: com.fastframework.core:FASTEventDispatcher/FASTEventDispatcher                
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 1                  
+                  Locals: 1                  
+                  InitScopeDepth: 5                  
+                  MaxScopeDepth: 6                  
+                  Bytecode:                  
+                    operandStack: 1                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    5 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  ConstructSuper(0)                      
+                              +0|-0  ReturnVoid()                      
+              Traits:              
+                Trait Method:                
+                  Name: AbcQName('removeOnceEventListener,AbcNamespace(5,'com.fastframework.core:FASTEventDispatcher))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Method:                  
+                    Name: com.fastframework.core:FASTEventDispatcher/private:removeOnceEventListener                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: com.fastframework.core:FASTEventDispatcher/when                        
+                        Type: AbcQName('String,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Name: com.fastframework.core:FASTEventDispatcher/when                        
+                        Type: AbcQName('Function,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 3                      
+                      InitScopeDepth: 5                      
+                      MaxScopeDepth: 6                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   3                        
+                        0 exception(s):                        
+                        7 operation(s):                        
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +0|-3  CallPropVoid(AbcQName('removeEventListener,AbcNamespace(22,')),2)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('once,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Method:                  
+                    Name: com.fastframework.core:FASTEventDispatcher/once                    
+                    Return Type: AbcQName('null,AbcNamespace(0,'null))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: true                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: null                        
+                        Type: AbcQName('String,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Name: null                        
+                        Type: AbcQName('Object,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Name: null                        
+                        Type: AbcQName('Function,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 5                      
+                      InitScopeDepth: 6                      
+                      MaxScopeDepth: 8                      
+                      Traits:                      
+                        Trait Slot:                        
+                          Name: AbcQName('whichObject,AbcNamespace(23,'com.fastframework.core))                          
+                          Index: 2                          
+                          Type: AbcQName('Object,AbcNamespace(22,'))                          
+                        Trait Slot:                        
+                          Name: AbcQName('eventType,AbcNamespace(23,'com.fastframework.core))                          
+                          Index: 1                          
+                          Type: AbcQName('String,AbcNamespace(22,'))                          
+                        Trait Slot:                        
+                          Name: AbcQName('callback,AbcNamespace(23,'com.fastframework.core))                          
+                          Index: 3                          
+                          Type: AbcQName('Function,AbcNamespace(22,'))                          
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   2                        
+                        localCount:   5                        
+                        0 exception(s):                        
+                        28 operation(s):                        
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  NewActivation()                          
+                                  +2|-1  Dup()                          
+                                  +0|-1  SetLocal(4)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  GetScopeObject(1)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-2  SetSlot(1)                          
+                                  +1|-0  GetScopeObject(1)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +0|-2  SetSlot(2)                          
+                                  +1|-0  GetScopeObject(1)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +0|-2  SetSlot(3)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetScopeObject(1)                          
+                                  +1|-1  GetSlot(1)                          
+                                  +1|-0  NewFunction([AbcMethod name: '])                          
+                                  +0|-3  CallPropVoid(AbcQName('addEventListener,AbcNamespace(22,')),2)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetScopeObject(1)                          
+                                  +1|-1  GetSlot(1)                          
+                                  +1|-0  GetScopeObject(1)                          
+                                  +1|-1  GetSlot(3)                          
+                                  +0|-3  CallPropVoid(AbcQName('addEventListener,AbcNamespace(22,')),2)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('when,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Method:                  
+                    Name: com.fastframework.core:FASTEventDispatcher/when                    
+                    Return Type: AbcQName('null,AbcNamespace(0,'null))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: null                        
+                        Type: AbcQName('String,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Name: null                        
+                        Type: AbcQName('Object,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Name: null                        
+                        Type: AbcQName('Function,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 6                      
+                      Locals: 4                      
+                      InitScopeDepth: 5                      
+                      MaxScopeDepth: 6                      
+                      Bytecode:                      
+                        operandStack: 6                        
+                        scopeStack:   1                        
+                        localCount:   4                        
+                        0 exception(s):                        
+                        11 operation(s):                        
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-0  PushFalse()                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-0  PushTrue()                          
+                                  +0|-6  CallPropVoid(AbcQName('addEventListener,AbcNamespace(22,')),5)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  ReturnValue()                          
+    Script:    
+      Init:      
+        Method:        
+          Name:           
+          Return Type: AbcQName('null,AbcNamespace(0,'null))          
+          Needs Arguments: false          
+          Needs Rest: false          
+          Needs Activation: false          
+          Has Optional Parameters: false          
+          Ignore Rest: false          
+          Is Native: false          
+          DXNS: false          
+          Has Parameter Names: false          
+          Parameters:          
+          Method Body:          
+            Max Stack: 2            
+            Locals: 1            
+            InitScopeDepth: 1            
+            MaxScopeDepth: 8            
+            Bytecode:            
+              operandStack: 2              
+              scopeStack:   7              
+              localCount:   1              
+              0 exception(s):              
+              38 operation(s):              
+                        +1|-0  GetLocal(0)                
+                        +0|-1  PushScope()                
+                        +1|-0  GetScopeObject(0)                
+                        +1|-0  GetLex(AbcQName('Object,AbcNamespace(22,')))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('EventDispatcher,AbcNamespace(22,'flash.events)))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('DisplayObject,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('InteractiveObject,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('DisplayObjectContainer,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('Sprite,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('Sprite,AbcNamespace(22,'flash.display)))                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('MainEventDispatcher,AbcNamespace(22,'))]])                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-2  InitProperty(AbcQName('MainEventDispatcher,AbcNamespace(22,')))                
+                        +1|-0  GetScopeObject(0)                
+                        +1|-0  GetLex(AbcQName('Object,AbcNamespace(22,')))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('EventDispatcher,AbcNamespace(22,'flash.events)))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('FASTEventDispatcher,AbcNamespace(22,'com.fastframework.core)))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('FASTEventDispatcher,AbcNamespace(22,'com.fastframework.core)))                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('AEventDispatcher,AbcNamespace(5,'MainEventDispatcher.as$1))]])                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-2  InitProperty(AbcQName('AEventDispatcher,AbcNamespace(5,'MainEventDispatcher.as$1)))                
+                        +0|-0  ReturnVoid()                
+      Traits:      
+        Trait Class:        
+          Name: AbcQName('MainEventDispatcher,AbcNamespace(22,'))          
+          Index: 1          
+          Type:          
+            Class:             
+              Method:              
+                Name:                 
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 1                  
+                  Locals: 1                  
+                  InitScopeDepth: 8                  
+                  MaxScopeDepth: 9                  
+                  Bytecode:                  
+                    operandStack: 1                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    3 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  ReturnVoid()                      
+            Instance:            
+              Name: AbcQName('MainEventDispatcher,AbcNamespace(22,'))              
+              Base: AbcQName('Sprite,AbcNamespace(22,'flash.display))              
+              Is Sealed: true              
+              Is Final: false              
+              Is Interface false              
+              Nullable: true              
+              Protected Namespace: AbcNamespace(24,'MainEventDispatcher)              
+              Interfaces:               
+              Method:              
+                Name: MainEventDispatcher/MainEventDispatcher                
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 5                  
+                  Locals: 1                  
+                  InitScopeDepth: 9                  
+                  MaxScopeDepth: 10                  
+                  Bytecode:                  
+                    operandStack: 5                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    24 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  ConstructSuper(0)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('graphics,AbcNamespace(22,')))                      
+                              +1|-0  PushInt(3355443)                      
+                              +1|-0  PushByte(1)                      
+                              +0|-3  CallPropVoid(AbcQName('beginFill,AbcNamespace(22,')),2)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('graphics,AbcNamespace(22,')))                      
+                              +1|-0  PushByte(0)                      
+                              +2|-1  Dup()                      
+                              +1|-0  PushShort(300)                      
+                              +1|-0  PushShort(300)                      
+                              +0|-5  CallPropVoid(AbcQName('drawRect,AbcNamespace(22,')),4)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('stage,AbcNamespace(22,')))                      
+                              +1|-0  GetLex(AbcQName('MouseEvent,AbcNamespace(22,'flash.events)))                      
+                              +1|-1  GetProperty(AbcQName('CLICK,AbcNamespace(22,')))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('click,AbcNamespace(5,'MainEventDispatcher)))                      
+                              +0|-3  CallPropVoid(AbcQName('addEventListener,AbcNamespace(22,')),2)                      
+                              +0|-0  ReturnVoid()                      
+              Traits:              
+                Trait Method:                
+                  Name: AbcQName('click,AbcNamespace(5,'MainEventDispatcher))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Method:                  
+                    Name: MainEventDispatcher/private:click                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: e                        
+                        Type: AbcQName('Event,AbcNamespace(22,'flash.events))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 2                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        12 operation(s):                        
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  PushString('click)                          
+                                  +0|-1  Pop()                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('ed,AbcNamespace(5,'MainEventDispatcher)))                          
+                                  +1|-0  FindPropStrict(AbcQName('Event,AbcNamespace(22,'flash.events)))                          
+                                  +1|-0  GetLex(AbcQName('Event,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('CHANGE,AbcNamespace(22,')))                          
+                                  +1|-2  ConstructProp(AbcQName('Event,AbcNamespace(22,'flash.events)),1)                          
+                                  +0|-2  CallPropVoid(AbcQName('dispatchEvent,AbcNamespace(22,')),1)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('testEventDispatcher,AbcNamespace(5,'MainEventDispatcher))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Method:                  
+                    Name: MainEventDispatcher/private:testEventDispatcher                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: e                        
+                        Type: AbcQName('Event,AbcNamespace(22,'flash.events))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 4                      
+                      Locals: 2                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 4                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        13 operation(s):                        
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  PushString('test event)                          
+                                  +0|-1  Pop()                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('ed,AbcNamespace(5,'MainEventDispatcher)))                          
+                                  +1|-0  GetLex(AbcQName('Event,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('CHANGE,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('testEventDispatcher,AbcNamespace(5,'MainEventDispatcher)))                          
+                                  +0|-4  CallPropVoid(AbcQName('once,AbcNamespace(22,')),3)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Slot:                
+                  Name: AbcQName('ed,AbcNamespace(5,'MainEventDispatcher))                  
+                  Index: 0                  
+                  Type: AbcQName('AEventDispatcher,AbcNamespace(5,'MainEventDispatcher.as$1))                  
+        Trait Class:        
+          Name: AbcQName('AEventDispatcher,AbcNamespace(5,'MainEventDispatcher.as$1))          
+          Index: 2          
+          Type:          
+            Class:             
+              Method:              
+                Name:                 
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 1                  
+                  Locals: 1                  
+                  InitScopeDepth: 5                  
+                  MaxScopeDepth: 6                  
+                  Bytecode:                  
+                    operandStack: 1                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    3 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  ReturnVoid()                      
+            Instance:            
+              Name: AbcQName('AEventDispatcher,AbcNamespace(5,'MainEventDispatcher.as$1))              
+              Base: AbcQName('FASTEventDispatcher,AbcNamespace(22,'com.fastframework.core))              
+              Is Sealed: true              
+              Is Final: false              
+              Is Interface false              
+              Nullable: true              
+              Protected Namespace: AbcNamespace(24,'MainEventDispatcher.as$1:AEventDispatcher)              
+              Interfaces:               
+              Method:              
+                Name: MainEventDispatcher.as$1:AEventDispatcher/AEventDispatcher                
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 1                  
+                  Locals: 1                  
+                  InitScopeDepth: 6                  
+                  MaxScopeDepth: 7                  
+                  Bytecode:                  
+                    operandStack: 1                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    5 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  ConstructSuper(0)                      
+                              +0|-0  ReturnVoid()                      
+              Traits:              
+                Trait Method:                
+                  Name: AbcQName('listen,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Method:                  
+                    Name: MainEventDispatcher.as$1:AEventDispatcher/listen                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: e                        
+                        Type: AbcQName('String,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Name: e                        
+                        Type: AbcQName('Function,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 3                      
+                      InitScopeDepth: 6                      
+                      MaxScopeDepth: 7                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   3                        
+                        0 exception(s):                        
+                        7 operation(s):                        
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +0|-3  CallPropVoid(AbcQName('addEventListener,AbcNamespace(22,')),2)                          
+                                  +0|-0  ReturnVoid()                          

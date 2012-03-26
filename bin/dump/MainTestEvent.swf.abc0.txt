@@ -1,0 +1,225 @@
+Abc:
+  4 method(s), 0 metadata, 1 type(s), 1 script(s)  
+  ConstantPool:  
+    1 integer(s):    
+      0      
+    1 uint(s):    
+      0      
+    1 double(s):    
+      NaN      
+    21 string(s):    
+      "null"      
+      ""      
+      "MainTestEvent/MainTestEvent"      
+      "void"      
+      "flash.events"      
+      "Event"      
+      "MainTestEvent/private:onChange"      
+      "MainTestEvent"      
+      "flash.display"      
+      "Sprite"      
+      "onChange"      
+      "/project/doot-test/src;;MainTestEvent.as"      
+      "ed"      
+      "EventDispatcher"      
+      "CHANGE"      
+      "addEventListener"      
+      "e"      
+      "Object"      
+      "DisplayObject"      
+      "InteractiveObject"      
+      "DisplayObjectContainer"      
+    6 namespace(s):    
+      AbcNamespace(0,'null)      
+      AbcNamespace(22,')      
+      AbcNamespace(22,'flash.events)      
+      AbcNamespace(22,'flash.display)      
+      AbcNamespace(24,'MainTestEvent)      
+      AbcNamespace(5,'MainTestEvent)      
+    1 namespaceset(s):    
+      AbcNSSet([AbcNamespace(0,'null)])      
+    13 multiname(s):    
+      AbcQName('null,AbcNamespace(0,'null))      
+      AbcQName('void,AbcNamespace(22,'))      
+      AbcQName('Event,AbcNamespace(22,'flash.events))      
+      AbcQName('MainTestEvent,AbcNamespace(22,'))      
+      AbcQName('Sprite,AbcNamespace(22,'flash.display))      
+      AbcQName('onChange,AbcNamespace(5,'MainTestEvent))      
+      AbcQName('EventDispatcher,AbcNamespace(22,'flash.events))      
+      AbcQName('CHANGE,AbcNamespace(22,'))      
+      AbcQName('addEventListener,AbcNamespace(22,'))      
+      AbcQName('Object,AbcNamespace(22,'))      
+      AbcQName('DisplayObject,AbcNamespace(22,'flash.display))      
+      AbcQName('InteractiveObject,AbcNamespace(22,'flash.display))      
+      AbcQName('DisplayObjectContainer,AbcNamespace(22,'flash.display))      
+  Functions:  
+  Metadata:  
+  Scripts:  
+    Script:    
+      Init:      
+        Method:        
+          Name:           
+          Return Type: AbcQName('null,AbcNamespace(0,'null))          
+          Needs Arguments: false          
+          Needs Rest: false          
+          Needs Activation: false          
+          Has Optional Parameters: false          
+          Ignore Rest: false          
+          Is Native: false          
+          DXNS: false          
+          Has Parameter Names: false          
+          Parameters:          
+          Method Body:          
+            Max Stack: 2            
+            Locals: 1            
+            InitScopeDepth: 1            
+            MaxScopeDepth: 8            
+            Bytecode:            
+              operandStack: 2              
+              scopeStack:   7              
+              localCount:   1              
+              0 exception(s):              
+              25 operation(s):              
+                        +1|-0  GetLocal(0)                
+                        +0|-1  PushScope()                
+                        +1|-0  GetScopeObject(0)                
+                        +1|-0  GetLex(AbcQName('Object,AbcNamespace(22,')))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('EventDispatcher,AbcNamespace(22,'flash.events)))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('DisplayObject,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('InteractiveObject,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('DisplayObjectContainer,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('Sprite,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('Sprite,AbcNamespace(22,'flash.display)))                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('MainTestEvent,AbcNamespace(22,'))]])                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-2  InitProperty(AbcQName('MainTestEvent,AbcNamespace(22,')))                
+                        +0|-0  ReturnVoid()                
+      Traits:      
+        Trait Class:        
+          Name: AbcQName('MainTestEvent,AbcNamespace(22,'))          
+          Index: 1          
+          Type:          
+            Class:             
+              Method:              
+                Name:                 
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 1                  
+                  Locals: 1                  
+                  InitScopeDepth: 8                  
+                  MaxScopeDepth: 9                  
+                  Bytecode:                  
+                    operandStack: 1                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    3 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  ReturnVoid()                      
+            Instance:            
+              Name: AbcQName('MainTestEvent,AbcNamespace(22,'))              
+              Base: AbcQName('Sprite,AbcNamespace(22,'flash.display))              
+              Is Sealed: true              
+              Is Final: false              
+              Is Interface false              
+              Nullable: true              
+              Protected Namespace: AbcNamespace(24,'MainTestEvent)              
+              Interfaces:               
+              Method:              
+                Name: MainTestEvent/MainTestEvent                
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 6                  
+                  Locals: 2                  
+                  InitScopeDepth: 9                  
+                  MaxScopeDepth: 10                  
+                  Bytecode:                  
+                    operandStack: 6                    
+                    scopeStack:   1                    
+                    localCount:   2                    
+                    0 exception(s):                    
+                    18 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  ConstructSuper(0)                      
+                              +1|-0  FindPropStrict(AbcQName('EventDispatcher,AbcNamespace(22,'flash.events)))                      
+                              +1|-1  ConstructProp(AbcQName('EventDispatcher,AbcNamespace(22,'flash.events)),0)                      
+                              +1|-1  Coerce(AbcQName('EventDispatcher,AbcNamespace(22,'flash.events)))                      
+                              +0|-1  SetLocal(1)                      
+                              +1|-0  GetLocal(1)                      
+                              +1|-0  GetLex(AbcQName('Event,AbcNamespace(22,'flash.events)))                      
+                              +1|-1  GetProperty(AbcQName('CHANGE,AbcNamespace(22,')))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('onChange,AbcNamespace(5,'MainTestEvent)))                      
+                              +1|-0  PushFalse()                      
+                              +1|-0  PushByte(0)                      
+                              +1|-0  PushTrue()                      
+                              +0|-6  CallPropVoid(AbcQName('addEventListener,AbcNamespace(22,')),5)                      
+                              +0|-0  ReturnVoid()                      
+              Traits:              
+                Trait Method:                
+                  Name: AbcQName('onChange,AbcNamespace(5,'MainTestEvent))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Method:                  
+                    Name: MainTestEvent/private:onChange                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: flash.events                        
+                        Type: AbcQName('Event,AbcNamespace(22,'flash.events))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 1                      
+                      Locals: 2                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 1                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        3 operation(s):                        
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  ReturnVoid()                          
