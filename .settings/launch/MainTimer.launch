@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="com.powerflasher.fdt.ui.MxmlcGroup">
 <stringAttribute key="ADL_ARGUMENTS" value=""/>
-<stringAttribute key="ADL_DESCRIPTOR_FILE" value=""/>
-<intAttribute key="AIR_VIEWER_CONF" value="0"/>
 <stringAttribute key="APP_ARGUMENTS" value=""/>
-<stringAttribute key="ARGUMENTS" value="-static-link-runtime-shared-libraries=true&#10;-target-player={playerVersion}&#10;-library-path+=&quot;{flexSDK}/frameworks/locale/en_US&quot;&#10;-default-size=550,400"/>
+<stringAttribute key="ARGUMENTS" value=""/>
 <stringAttribute key="EXCLUDED_PACKAGES_LIST" value=""/>
 <booleanAttribute key="FILTER_INTERNAL_PACKAGES" value="false"/>
 <stringAttribute key="INCLUDED_PACKAGES_LIST" value=""/>
 <booleanAttribute key="KILL_PREVIOUS_VIEWER" value="true"/>
 <stringAttribute key="LAUNCHER_DEPENDENCIES" value="[Self]"/>
-<stringAttribute key="MAIN_CLASS" value="src/MainSpriteSelectable.as"/>
+<stringAttribute key="MAIN_CLASS" value="src/MainTimer.as"/>
 <booleanAttribute key="MEMORY_PROFILING" value="true"/>
 <booleanAttribute key="MEMORY_PROFILING_STACKDATA" value="true"/>
-<stringAttribute key="MOBILE_PRESET" value=""/>
-<stringAttribute key="OUTPUT" value="bin/MainSpriteSelectable.swf"/>
+<stringAttribute key="OUTPUT" value="bin/MainTimer.swf"/>
 <booleanAttribute key="PASS_CP" value="true"/>
-<booleanAttribute key="PASS_EXTERNS" value="false"/>
+<booleanAttribute key="PASS_EXTERNS" value="true"/>
 <booleanAttribute key="PASS_MAIN_CLASS" value="true"/>
 <booleanAttribute key="PASS_RSLS" value="false"/>
 <booleanAttribute key="PASS_SWCS" value="true"/>
@@ -30,9 +27,8 @@
 <booleanAttribute key="PROFILER_FILTER_INTERNAL_ACTIONS" value="false"/>
 <booleanAttribute key="PROFILER_FILTER_NATIVES" value="false"/>
 <stringAttribute key="PROJECT_NAME" value="doot"/>
-<stringAttribute key="PUBLISHER_ID" value=""/>
 <booleanAttribute key="START_SWF_ENABLED" value="true"/>
-<stringAttribute key="START_SWF_LOCATION" value="bin/MainSpriteSelectable.swf"/>
+<stringAttribute key="START_SWF_LOCATION" value="bin/MainTimer.swf"/>
 <stringAttribute key="START_SWF_WITH" value="Adobe Flash Player"/>
 <booleanAttribute key="USE_PROJECT_COMPILER_ARGUMENTS" value="true"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">

@@ -4,7 +4,7 @@
 <stringAttribute key="APP_ARGUMENTS" value=""/>
 <stringAttribute key="ARGUMENTS" value=""/>
 <stringAttribute key="EXCLUDED_PACKAGES_LIST" value=""/>
-<booleanAttribute key="FILTER_INTERNAL_PACKAGES" value="true"/>
+<booleanAttribute key="FILTER_INTERNAL_PACKAGES" value="false"/>
 <stringAttribute key="INCLUDED_PACKAGES_LIST" value=""/>
 <booleanAttribute key="KILL_PREVIOUS_VIEWER" value="true"/>
 <stringAttribute key="LAUNCHER_DEPENDENCIES" value="[Self]"/>

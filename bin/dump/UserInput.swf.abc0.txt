@@ -1,0 +1,1424 @@
+Abc:
+  27 method(s), 0 metadata, 3 type(s), 3 script(s)  
+  ConstantPool:  
+    2 integer(s):    
+      0      
+      0      
+    1 uint(s):    
+      0      
+    1 double(s):    
+      NaN      
+    88 string(s):    
+      "null"      
+      ""      
+      "String"      
+      "Function"      
+      "void"      
+      "flash.events"      
+      "Event"      
+      "doot.model"      
+      "UserInput"      
+      "Boolean"      
+      "int"      
+      "flash.display"      
+      "InteractiveObject"      
+      "Stage"      
+      "MouseEvent"      
+      "KeyboardEvent"      
+      "Array"      
+      "com.fastframework.core"      
+      "IFASTEventDispatcher"      
+      "IEventDispatcher"      
+      "com.fastframework.core:IFASTEventDispatcher"      
+      "once"      
+      "when"      
+      "FASTEventDispatcher"      
+      "EventDispatcher"      
+      "com.fastframework.core:FASTEventDispatcher"      
+      "runonce"      
+      "dict"      
+      "flash.utils"      
+      "Dictionary"      
+      "doot.model:UserInput"      
+      "enable"      
+      "setRoot"      
+      "forwardMouseEvent"      
+      "disable"      
+      "mousePt"      
+      "flash.geom"      
+      "Point"      
+      "up"      
+      "registerRoot"      
+      "isEnable"      
+      "forwardKeyboardEvent"      
+      "onAddedToStage"      
+      "target"      
+      "Object"      
+      "addEventListener"      
+      "getObjectsUnderPoint"      
+      "move"      
+      "down"      
+      "isMouseDown"      
+      "stage"      
+      "CLICK"      
+      "click"      
+      "KEY_DOWN"      
+      "keyDown"      
+      "MOUSE_MOVE"      
+      "mouseMove"      
+      "instance"      
+      "ins"      
+      "MOUSE_UP"      
+      "mouseUp"      
+      "KEY_UP"      
+      "keyUp"      
+      "MOUSE_DOWN"      
+      "mouseDown"      
+      "http://adobe.com/AS3/2006/builtin"      
+      "flash.events:EventDispatcher"      
+      "push"      
+      "type"      
+      "length"      
+      "splice"      
+      "trace"      
+      "ADDED_TO_STAGE"      
+      "removeEventListener"      
+      "hasEventListener"      
+      "stageX"      
+      "x"      
+      "stageY"      
+      "y"      
+      "dispatchEvent"      
+      "bubbles"      
+      "cancelable"      
+      "relatedObject"      
+      "ctrlKey"      
+      "altKey"      
+      "shiftKey"      
+      "buttonDown"      
+      "delta"      
+    19 namespace(s):    
+      AbcNamespace(0,'null)      
+      AbcNamespace(22,')      
+      AbcNamespace(22,'flash.events)      
+      AbcNamespace(22,'doot.model)      
+      AbcNamespace(22,'flash.display)      
+      AbcNamespace(22,'com.fastframework.core)      
+      AbcNamespace(8,'com.fastframework.core:IFASTEventDispatcher)      
+      AbcNamespace(24,'com.fastframework.core:FASTEventDispatcher)      
+      AbcNamespace(5,'null)      
+      AbcNamespace(22,'flash.utils)      
+      AbcNamespace(24,'doot.model:UserInput)      
+      AbcNamespace(5,'null)      
+      AbcNamespace(22,'flash.geom)      
+      AbcNamespace(5,'null)      
+      AbcNamespace(23,'com.fastframework.core)      
+      AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)      
+      AbcNamespace(26,'com.fastframework.core:FASTEventDispatcher)      
+      AbcNamespace(26,'flash.events:EventDispatcher)      
+      AbcNamespace(26,'Object)      
+    4 namespaceset(s):    
+      AbcNSSet([AbcNamespace(0,'null)])      
+      AbcNSSet([AbcNamespace(22,'flash.events)])      
+      AbcNSSet([AbcNamespace(22,'com.fastframework.core)])      
+      AbcNSSet([AbcNamespace(5,'null),AbcNamespace(22,'),AbcNamespace(5,'null),AbcNamespace(22,'com.fastframework.core),AbcNamespace(23,'com.fastframework.core),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.fastframework.core:FASTEventDispatcher),AbcNamespace(26,'com.fastframework.core:FASTEventDispatcher),AbcNamespace(26,'flash.events:EventDispatcher),AbcNamespace(26,'Object)])      
+    76 multiname(s):    
+      AbcQName('null,AbcNamespace(0,'null))      
+      AbcQName('String,AbcNamespace(22,'))      
+      AbcQName('Function,AbcNamespace(22,'))      
+      AbcQName('void,AbcNamespace(22,'))      
+      AbcQName('Event,AbcNamespace(22,'flash.events))      
+      AbcQName('UserInput,AbcNamespace(22,'doot.model))      
+      AbcQName('Boolean,AbcNamespace(22,'))      
+      AbcQName('int,AbcNamespace(22,'))      
+      AbcQName('InteractiveObject,AbcNamespace(22,'flash.display))      
+      AbcQName('Stage,AbcNamespace(22,'flash.display))      
+      AbcQName('MouseEvent,AbcNamespace(22,'flash.events))      
+      AbcQName('KeyboardEvent,AbcNamespace(22,'flash.events))      
+      AbcQName('Array,AbcNamespace(22,'))      
+      AbcQName('IFASTEventDispatcher,AbcNamespace(22,'com.fastframework.core))      
+      AbcMultiname('IEventDispatcher,AbcNSSet([AbcNamespace(22,'flash.events)]))      
+      AbcQName('once,AbcNamespace(8,'com.fastframework.core:IFASTEventDispatcher))      
+      AbcQName('when,AbcNamespace(8,'com.fastframework.core:IFASTEventDispatcher))      
+      AbcQName('FASTEventDispatcher,AbcNamespace(22,'com.fastframework.core))      
+      AbcQName('EventDispatcher,AbcNamespace(22,'flash.events))      
+      AbcMultiname('IFASTEventDispatcher,AbcNSSet([AbcNamespace(22,'com.fastframework.core)]))      
+      AbcQName('once,AbcNamespace(22,'))      
+      AbcQName('runonce,AbcNamespace(5,'null))      
+      AbcQName('dict,AbcNamespace(5,'null))      
+      AbcQName('Dictionary,AbcNamespace(22,'flash.utils))      
+      AbcQName('when,AbcNamespace(22,'))      
+      AbcQName('enable,AbcNamespace(22,'))      
+      AbcQName('setRoot,AbcNamespace(22,'))      
+      AbcQName('forwardMouseEvent,AbcNamespace(5,'null))      
+      AbcQName('disable,AbcNamespace(22,'))      
+      AbcQName('mousePt,AbcNamespace(22,'))      
+      AbcQName('Point,AbcNamespace(22,'flash.geom))      
+      AbcQName('up,AbcNamespace(5,'null))      
+      AbcQName('registerRoot,AbcNamespace(5,'null))      
+      AbcQName('isEnable,AbcNamespace(5,'null))      
+      AbcQName('forwardKeyboardEvent,AbcNamespace(5,'null))      
+      AbcQName('onAddedToStage,AbcNamespace(5,'null))      
+      AbcQName('target,AbcNamespace(22,'))      
+      AbcQName('Object,AbcNamespace(22,'))      
+      AbcQName('addEventListener,AbcNamespace(22,'))      
+      AbcQName('getObjectsUnderPoint,AbcNamespace(22,'))      
+      AbcQName('move,AbcNamespace(5,'null))      
+      AbcQName('down,AbcNamespace(5,'null))      
+      AbcQName('isMouseDown,AbcNamespace(22,'))      
+      AbcQName('stage,AbcNamespace(5,'null))      
+      AbcQName('CLICK,AbcNamespace(22,'))      
+      AbcQName('KEY_DOWN,AbcNamespace(22,'))      
+      AbcQName('MOUSE_MOVE,AbcNamespace(22,'))      
+      AbcQName('instance,AbcNamespace(22,'))      
+      AbcQName('ins,AbcNamespace(5,'null))      
+      AbcQName('MOUSE_UP,AbcNamespace(22,'))      
+      AbcQName('KEY_UP,AbcNamespace(22,'))      
+      AbcQName('MOUSE_DOWN,AbcNamespace(22,'))      
+      AbcMultinameL(AbcNSSet([AbcNamespace(5,'null),AbcNamespace(22,'),AbcNamespace(5,'null),AbcNamespace(22,'com.fastframework.core),AbcNamespace(23,'com.fastframework.core),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.fastframework.core:FASTEventDispatcher),AbcNamespace(26,'com.fastframework.core:FASTEventDispatcher),AbcNamespace(26,'flash.events:EventDispatcher),AbcNamespace(26,'Object)]))      
+      AbcQName('push,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin))      
+      AbcQName('type,AbcNamespace(22,'))      
+      AbcQName('length,AbcNamespace(22,'))      
+      AbcQName('splice,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin))      
+      AbcMultiname('FASTEventDispatcher,AbcNSSet([AbcNamespace(22,'com.fastframework.core)]))      
+      AbcQName('trace,AbcNamespace(22,'))      
+      AbcQName('stage,AbcNamespace(22,'))      
+      AbcQName('ADDED_TO_STAGE,AbcNamespace(22,'))      
+      AbcQName('removeEventListener,AbcNamespace(22,'))      
+      AbcQName('hasEventListener,AbcNamespace(22,'))      
+      AbcQName('stageX,AbcNamespace(22,'))      
+      AbcQName('x,AbcNamespace(22,'))      
+      AbcQName('stageY,AbcNamespace(22,'))      
+      AbcQName('y,AbcNamespace(22,'))      
+      AbcQName('dispatchEvent,AbcNamespace(22,'))      
+      AbcQName('bubbles,AbcNamespace(22,'))      
+      AbcQName('cancelable,AbcNamespace(22,'))      
+      AbcQName('relatedObject,AbcNamespace(22,'))      
+      AbcQName('ctrlKey,AbcNamespace(22,'))      
+      AbcQName('altKey,AbcNamespace(22,'))      
+      AbcQName('shiftKey,AbcNamespace(22,'))      
+      AbcQName('buttonDown,AbcNamespace(22,'))      
+      AbcQName('delta,AbcNamespace(22,'))      
+  Functions:  
+  Metadata:  
+  Scripts:  
+    Script:    
+      Init:      
+        Method:        
+          Return Type: AbcQName('null,AbcNamespace(0,'null))          
+          Needs Arguments: false          
+          Needs Rest: false          
+          Needs Activation: false          
+          Has Optional Parameters: false          
+          Ignore Rest: false          
+          Is Native: false          
+          DXNS: false          
+          Has Parameter Names: false          
+          Parameters:          
+          Method Body:          
+            Max Stack: 2            
+            Locals: 1            
+            InitScopeDepth: 1            
+            MaxScopeDepth: 2            
+            Bytecode:            
+              operandStack: 2              
+              scopeStack:   1              
+              localCount:   1              
+              0 exception(s):              
+              7 operation(s):              
+                        +1|-0  GetLocal(0)                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcMultiname('IFASTEventDispatcher,AbcNSSet([AbcNamespace(22,'com.fastframework.core)])))                
+                        +1|-0  PushNull()                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('IFASTEventDispatcher,AbcNamespace(22,'com.fastframework.core))]])                
+                        +0|-2  InitProperty(AbcQName('IFASTEventDispatcher,AbcNamespace(22,'com.fastframework.core)))                
+                        +0|-0  ReturnVoid()                
+      Traits:      
+        Trait Class:        
+          Name: AbcQName('IFASTEventDispatcher,AbcNamespace(22,'com.fastframework.core))          
+          Index: 0          
+          Type:          
+            Class:             
+              Method:              
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 0                  
+                  Locals: 1                  
+                  InitScopeDepth: 4                  
+                  MaxScopeDepth: 4                  
+                  Bytecode:                  
+                    operandStack: 0                    
+                    scopeStack:   0                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    1 operation(s):                    
+                              +0|-0  ReturnVoid()                      
+            Instance:            
+              Name: AbcQName('IFASTEventDispatcher,AbcNamespace(22,'com.fastframework.core))              
+              Is Sealed: true              
+              Is Final: false              
+              Is Interface true              
+              Nullable: true              
+              Interfaces:               
+                AbcMultiname('IEventDispatcher,AbcNSSet([AbcNamespace(22,'flash.events)]))                
+              Method:              
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+              Traits:              
+                Trait Method:                
+                  Name: AbcQName('once,AbcNamespace(8,'com.fastframework.core:IFASTEventDispatcher))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Method:                  
+                    Return Type: AbcQName('null,AbcNamespace(0,'null))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                      Parameter:                       
+                        Type: AbcQName('String,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Type: AbcQName('Function,AbcNamespace(22,'))                        
+                        Optional: false                        
+                Trait Method:                
+                  Name: AbcQName('when,AbcNamespace(8,'com.fastframework.core:IFASTEventDispatcher))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Method:                  
+                    Return Type: AbcQName('null,AbcNamespace(0,'null))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                      Parameter:                       
+                        Type: AbcQName('String,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Type: AbcQName('Function,AbcNamespace(22,'))                        
+                        Optional: false                        
+    Script:    
+      Init:      
+        Method:        
+          Return Type: AbcQName('null,AbcNamespace(0,'null))          
+          Needs Arguments: false          
+          Needs Rest: false          
+          Needs Activation: false          
+          Has Optional Parameters: false          
+          Ignore Rest: false          
+          Is Native: false          
+          DXNS: false          
+          Has Parameter Names: false          
+          Parameters:          
+          Method Body:          
+            Max Stack: 2            
+            Locals: 1            
+            InitScopeDepth: 1            
+            MaxScopeDepth: 4            
+            Bytecode:            
+              operandStack: 2              
+              scopeStack:   3              
+              localCount:   1              
+              0 exception(s):              
+              13 operation(s):              
+                        +1|-0  GetLocal(0)                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcMultiname('FASTEventDispatcher,AbcNSSet([AbcNamespace(22,'com.fastframework.core)])))                
+                        +1|-0  GetLex(AbcQName('Object,AbcNamespace(22,')))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('EventDispatcher,AbcNamespace(22,'flash.events)))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('EventDispatcher,AbcNamespace(22,'flash.events)))                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('FASTEventDispatcher,AbcNamespace(22,'com.fastframework.core))]])                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-2  InitProperty(AbcQName('FASTEventDispatcher,AbcNamespace(22,'com.fastframework.core)))                
+                        +0|-0  ReturnVoid()                
+      Traits:      
+        Trait Class:        
+          Name: AbcQName('FASTEventDispatcher,AbcNamespace(22,'com.fastframework.core))          
+          Index: 0          
+          Type:          
+            Class:             
+              Method:              
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 1                  
+                  Locals: 1                  
+                  InitScopeDepth: 4                  
+                  MaxScopeDepth: 5                  
+                  Bytecode:                  
+                    operandStack: 1                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    3 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  ReturnVoid()                      
+            Instance:            
+              Name: AbcQName('FASTEventDispatcher,AbcNamespace(22,'com.fastframework.core))              
+              Base: AbcQName('EventDispatcher,AbcNamespace(22,'flash.events))              
+              Is Sealed: true              
+              Is Final: false              
+              Is Interface false              
+              Nullable: true              
+              Protected Namespace: AbcNamespace(24,'com.fastframework.core:FASTEventDispatcher)              
+              Interfaces:               
+                AbcMultiname('IFASTEventDispatcher,AbcNSSet([AbcNamespace(22,'com.fastframework.core)]))                
+              Method:              
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 3                  
+                  Locals: 1                  
+                  InitScopeDepth: 5                  
+                  MaxScopeDepth: 6                  
+                  Bytecode:                  
+                    operandStack: 3                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    10 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +1|-0  FindProperty(AbcQName('dict,AbcNamespace(5,'null)))                      
+                              +1|-0  FindPropStrict(AbcQName('Dictionary,AbcNamespace(22,'flash.utils)))                      
+                              +1|-0  PushTrue()                      
+                              +1|-2  ConstructProp(AbcQName('Dictionary,AbcNamespace(22,'flash.utils)),1)                      
+                              +0|-2  InitProperty(AbcQName('dict,AbcNamespace(5,'null)))                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  ConstructSuper(0)                      
+                              +0|-0  ReturnVoid()                      
+              Traits:              
+                Trait Method:                
+                  Name: AbcQName('once,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Method:                  
+                    Return Type: AbcQName('null,AbcNamespace(0,'null))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                      Parameter:                       
+                        Type: AbcQName('String,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Type: AbcQName('Function,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 6                      
+                      Locals: 3                      
+                      InitScopeDepth: 5                      
+                      MaxScopeDepth: 6                      
+                      Bytecode:                      
+                        operandStack: 6                        
+                        scopeStack:   1                        
+                        localCount:   3                        
+                        0 exception(s):                        
+                        27 operation(s):                        
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  GetLex(AbcQName('dict,AbcNamespace(5,'null)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'null),AbcNamespace(22,'),AbcNamespace(5,'null),AbcNamespace(22,'com.fastframework.core),AbcNamespace(23,'com.fastframework.core),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.fastframework.core:FASTEventDispatcher),AbcNamespace(26,'com.fastframework.core:FASTEventDispatcher),AbcNamespace(26,'flash.events:EventDispatcher),AbcNamespace(26,'Object)])))                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  IfNotEqual(L0)                          
+                                  +1|-0  GetLex(AbcQName('dict,AbcNamespace(5,'null)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  NewArray(0)                          
+                                  +0|-3  SetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'null),AbcNamespace(22,'),AbcNamespace(5,'null),AbcNamespace(22,'com.fastframework.core),AbcNamespace(23,'com.fastframework.core),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.fastframework.core:FASTEventDispatcher),AbcNamespace(26,'com.fastframework.core:FASTEventDispatcher),AbcNamespace(26,'flash.events:EventDispatcher),AbcNamespace(26,'Object)])))                          
+                                  +1|-0  FindPropStrict(AbcQName('addEventListener,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLex(AbcQName('runonce,AbcNamespace(5,'null)))                          
+                                  +1|-0  PushFalse()                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-0  PushTrue()                          
+                                  +0|-6  CallPropVoid(AbcQName('addEventListener,AbcNamespace(22,')),5)                          
+                          L0:     +1|-0  GetLex(AbcQName('dict,AbcNamespace(5,'null)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'null),AbcNamespace(22,'),AbcNamespace(5,'null),AbcNamespace(22,'com.fastframework.core),AbcNamespace(23,'com.fastframework.core),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.fastframework.core:FASTEventDispatcher),AbcNamespace(26,'com.fastframework.core:FASTEventDispatcher),AbcNamespace(26,'flash.events:EventDispatcher),AbcNamespace(26,'Object)])))                          
+                                  +1|-0  GetLex(AbcQName('Array,AbcNamespace(22,')))                          
+                                  +1|-2  AsTypeLate()                          
+                                  +1|-0  GetLocal(2)                          
+                                  +0|-2  CallPropVoid(AbcQName('push,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)),1)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('runonce,AbcNamespace(5,'null))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Method:                  
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                      Parameter:                       
+                        Type: AbcQName('Event,AbcNamespace(22,'flash.events))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 6                      
+                      InitScopeDepth: 5                      
+                      MaxScopeDepth: 6                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   6                        
+                        0 exception(s):                        
+                        37 operation(s):                        
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  GetLex(AbcQName('dict,AbcNamespace(5,'null)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('type,AbcNamespace(22,')))                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'null),AbcNamespace(22,'),AbcNamespace(5,'null),AbcNamespace(22,'com.fastframework.core),AbcNamespace(23,'com.fastframework.core),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.fastframework.core:FASTEventDispatcher),AbcNamespace(26,'com.fastframework.core:FASTEventDispatcher),AbcNamespace(26,'flash.events:EventDispatcher),AbcNamespace(26,'Object)])))                          
+                                  +1|-0  GetLex(AbcQName('Array,AbcNamespace(22,')))                          
+                                  +1|-2  AsTypeLate()                          
+                                  +1|-1  Coerce(AbcQName('Array,AbcNamespace(22,')))                          
+                                  +0|-1  SetLocal(2)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('length,AbcNamespace(22,')))                          
+                                  +1|-3  CallProperty(AbcQName('splice,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)),2)                          
+                                  +1|-1  Coerce(AbcQName('Array,AbcNamespace(22,')))                          
+                                  +0|-1  SetLocal(3)                          
+                                  +1|-0  PushByte(0)                          
+                                  +0|-1  SetLocal(4)                          
+                                  +0|-0  Jump(L0)                          
+                          L1:     +0|-0  Label()                          
+                                  +1|-0  GetLocal(3)                          
+                                  +2|-1  Dup()                          
+                                  +0|-1  SetLocal(5)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'null),AbcNamespace(22,'),AbcNamespace(5,'null),AbcNamespace(22,'com.fastframework.core),AbcNamespace(23,'com.fastframework.core),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.fastframework.core:FASTEventDispatcher),AbcNamespace(26,'com.fastframework.core:FASTEventDispatcher),AbcNamespace(26,'flash.events:EventDispatcher),AbcNamespace(26,'Object)])))                          
+                                  +1|-0  GetLocal(5)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-3  Call(1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  Kill(5)                          
+                                  +0|-0  IncLocalInt(4)                          
+                          L0:     +1|-0  GetLocal(4)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-1  GetProperty(AbcQName('length,AbcNamespace(22,')))                          
+                                  +0|-2  IfLessThan(L1)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Slot:                
+                  Name: AbcQName('dict,AbcNamespace(5,'null))                  
+                  Index: 0                  
+                  Type: AbcQName('Dictionary,AbcNamespace(22,'flash.utils))                  
+                Trait Method:                
+                  Name: AbcQName('when,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Method:                  
+                    Return Type: AbcQName('null,AbcNamespace(0,'null))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                      Parameter:                       
+                        Type: AbcQName('String,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Type: AbcQName('Function,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 6                      
+                      Locals: 3                      
+                      InitScopeDepth: 5                      
+                      MaxScopeDepth: 6                      
+                      Bytecode:                      
+                        operandStack: 6                        
+                        scopeStack:   1                        
+                        localCount:   3                        
+                        0 exception(s):                        
+                        11 operation(s):                        
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  PushFalse()                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-0  PushTrue()                          
+                                  +0|-6  CallPropVoid(AbcQName('addEventListener,AbcNamespace(22,')),5)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  ReturnValue()                          
+    Script:    
+      Init:      
+        Method:        
+          Return Type: AbcQName('null,AbcNamespace(0,'null))          
+          Needs Arguments: false          
+          Needs Rest: false          
+          Needs Activation: false          
+          Has Optional Parameters: false          
+          Ignore Rest: false          
+          Is Native: false          
+          DXNS: false          
+          Has Parameter Names: false          
+          Parameters:          
+          Method Body:          
+            Max Stack: 2            
+            Locals: 1            
+            InitScopeDepth: 1            
+            MaxScopeDepth: 5            
+            Bytecode:            
+              operandStack: 2              
+              scopeStack:   4              
+              localCount:   1              
+              0 exception(s):              
+              16 operation(s):              
+                        +1|-0  GetLocal(0)                
+                        +0|-1  PushScope()                
+                        +1|-0  GetScopeObject(0)                
+                        +1|-0  GetLex(AbcQName('Object,AbcNamespace(22,')))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('EventDispatcher,AbcNamespace(22,'flash.events)))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('FASTEventDispatcher,AbcNamespace(22,'com.fastframework.core)))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('FASTEventDispatcher,AbcNamespace(22,'com.fastframework.core)))                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('UserInput,AbcNamespace(22,'doot.model))]])                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-2  InitProperty(AbcQName('UserInput,AbcNamespace(22,'doot.model)))                
+                        +0|-0  ReturnVoid()                
+      Traits:      
+        Trait Class:        
+          Name: AbcQName('UserInput,AbcNamespace(22,'doot.model))          
+          Index: 1          
+          Type:          
+            Class:             
+              Traits:              
+                Trait Const:                
+                  Name: AbcQName('CLICK,AbcNamespace(22,'))                  
+                  Index: 1                  
+                  Type: AbcQName('String,AbcNamespace(22,'))                  
+                  Value: 'click                  
+                Trait Const:                
+                  Name: AbcQName('KEY_DOWN,AbcNamespace(22,'))                  
+                  Index: 5                  
+                  Type: AbcQName('String,AbcNamespace(22,'))                  
+                  Value: 'keyDown                  
+                Trait Const:                
+                  Name: AbcQName('MOUSE_MOVE,AbcNamespace(22,'))                  
+                  Index: 3                  
+                  Type: AbcQName('String,AbcNamespace(22,'))                  
+                  Value: 'mouseMove                  
+                Trait Method:                
+                  Name: AbcQName('instance,AbcNamespace(22,'))                  
+                  Disp Id: 3                  
+                  Is Final: true                  
+                  Is Override: false                  
+                  Method:                  
+                    Return Type: AbcQName('UserInput,AbcNamespace(22,'doot.model))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 1                      
+                      InitScopeDepth: 5                      
+                      MaxScopeDepth: 6                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        11 operation(s):                        
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  GetLex(AbcQName('ins,AbcNamespace(5,'null)))                          
+                                  +1|-1  Coerce(AbcQName('UserInput,AbcNamespace(22,'doot.model)))                          
+                                  +2|-1  Dup()                          
+                                  +0|-1  IfTrue(L0)                          
+                                  +0|-1  Pop()                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  Construct(0)                          
+                                  +1|-1  Coerce(AbcQName('UserInput,AbcNamespace(22,'doot.model)))                          
+                          L0:     +0|-1  ReturnValue()                          
+                Trait Slot:                
+                  Name: AbcQName('ins,AbcNamespace(5,'null))                  
+                  Index: 7                  
+                  Type: AbcQName('UserInput,AbcNamespace(22,'doot.model))                  
+                Trait Const:                
+                  Name: AbcQName('MOUSE_UP,AbcNamespace(22,'))                  
+                  Index: 4                  
+                  Type: AbcQName('String,AbcNamespace(22,'))                  
+                  Value: 'mouseUp                  
+                Trait Const:                
+                  Name: AbcQName('KEY_UP,AbcNamespace(22,'))                  
+                  Index: 6                  
+                  Type: AbcQName('String,AbcNamespace(22,'))                  
+                  Value: 'keyUp                  
+                Trait Const:                
+                  Name: AbcQName('MOUSE_DOWN,AbcNamespace(22,'))                  
+                  Index: 2                  
+                  Type: AbcQName('String,AbcNamespace(22,'))                  
+                  Value: 'mouseDown                  
+              Method:              
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 2                  
+                  Locals: 1                  
+                  InitScopeDepth: 5                  
+                  MaxScopeDepth: 6                  
+                  Bytecode:                  
+                    operandStack: 2                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    27 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +1|-0  FindProperty(AbcQName('CLICK,AbcNamespace(22,')))                      
+                              +1|-0  GetLex(AbcQName('MouseEvent,AbcNamespace(22,'flash.events)))                      
+                              +1|-1  GetProperty(AbcQName('CLICK,AbcNamespace(22,')))                      
+                              +0|-2  InitProperty(AbcQName('CLICK,AbcNamespace(22,')))                      
+                              +1|-0  FindProperty(AbcQName('MOUSE_DOWN,AbcNamespace(22,')))                      
+                              +1|-0  GetLex(AbcQName('MouseEvent,AbcNamespace(22,'flash.events)))                      
+                              +1|-1  GetProperty(AbcQName('MOUSE_DOWN,AbcNamespace(22,')))                      
+                              +0|-2  InitProperty(AbcQName('MOUSE_DOWN,AbcNamespace(22,')))                      
+                              +1|-0  FindProperty(AbcQName('MOUSE_MOVE,AbcNamespace(22,')))                      
+                              +1|-0  GetLex(AbcQName('MouseEvent,AbcNamespace(22,'flash.events)))                      
+                              +1|-1  GetProperty(AbcQName('MOUSE_MOVE,AbcNamespace(22,')))                      
+                              +0|-2  InitProperty(AbcQName('MOUSE_MOVE,AbcNamespace(22,')))                      
+                              +1|-0  FindProperty(AbcQName('MOUSE_UP,AbcNamespace(22,')))                      
+                              +1|-0  GetLex(AbcQName('MouseEvent,AbcNamespace(22,'flash.events)))                      
+                              +1|-1  GetProperty(AbcQName('MOUSE_UP,AbcNamespace(22,')))                      
+                              +0|-2  InitProperty(AbcQName('MOUSE_UP,AbcNamespace(22,')))                      
+                              +1|-0  FindProperty(AbcQName('KEY_DOWN,AbcNamespace(22,')))                      
+                              +1|-0  GetLex(AbcQName('KeyboardEvent,AbcNamespace(22,'flash.events)))                      
+                              +1|-1  GetProperty(AbcQName('KEY_DOWN,AbcNamespace(22,')))                      
+                              +0|-2  InitProperty(AbcQName('KEY_DOWN,AbcNamespace(22,')))                      
+                              +1|-0  FindProperty(AbcQName('KEY_UP,AbcNamespace(22,')))                      
+                              +1|-0  GetLex(AbcQName('KeyboardEvent,AbcNamespace(22,'flash.events)))                      
+                              +1|-1  GetProperty(AbcQName('KEY_UP,AbcNamespace(22,')))                      
+                              +0|-2  InitProperty(AbcQName('KEY_UP,AbcNamespace(22,')))                      
+                              +0|-0  ReturnVoid()                      
+            Instance:            
+              Name: AbcQName('UserInput,AbcNamespace(22,'doot.model))              
+              Base: AbcQName('FASTEventDispatcher,AbcNamespace(22,'com.fastframework.core))              
+              Is Sealed: true              
+              Is Final: false              
+              Is Interface false              
+              Nullable: true              
+              Protected Namespace: AbcNamespace(24,'doot.model:UserInput)              
+              Interfaces:               
+                AbcMultiname('IFASTEventDispatcher,AbcNSSet([AbcNamespace(22,'com.fastframework.core)]))                
+              Method:              
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 2                  
+                  Locals: 1                  
+                  InitScopeDepth: 6                  
+                  MaxScopeDepth: 7                  
+                  Bytecode:                  
+                    operandStack: 2                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    16 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +1|-0  FindProperty(AbcQName('mousePt,AbcNamespace(22,')))                      
+                              +1|-0  FindPropStrict(AbcQName('Point,AbcNamespace(22,'flash.geom)))                      
+                              +1|-1  ConstructProp(AbcQName('Point,AbcNamespace(22,'flash.geom)),0)                      
+                              +0|-2  InitProperty(AbcQName('mousePt,AbcNamespace(22,')))                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  ConstructSuper(0)                      
+                              +1|-0  GetLex(AbcQName('ins,AbcNamespace(5,'null)))                      
+                              +1|-0  PushNull()                      
+                              +0|-2  IfEqual(L0)                      
+                              +0|-0  ReturnVoid()                      
+                      L0:     +1|-0  FindProperty(AbcQName('ins,AbcNamespace(5,'null)))                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-2  SetProperty(AbcQName('ins,AbcNamespace(5,'null)))                      
+                              +0|-0  ReturnVoid()                      
+              Traits:              
+                Trait Method:                
+                  Name: AbcQName('enable,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Method:                  
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 1                      
+                      InitScopeDepth: 6                      
+                      MaxScopeDepth: 7                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        6 operation(s):                        
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  FindProperty(AbcQName('isEnable,AbcNamespace(5,'null)))                          
+                                  +1|-0  PushTrue()                          
+                                  +0|-2  InitProperty(AbcQName('isEnable,AbcNamespace(5,'null)))                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('setRoot,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Method:                  
+                    Return Type: AbcQName('UserInput,AbcNamespace(22,'doot.model))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                      Parameter:                       
+                        Type: AbcQName('InteractiveObject,AbcNamespace(22,'flash.display))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 2                      
+                      InitScopeDepth: 6                      
+                      MaxScopeDepth: 7                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        19 operation(s):                        
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('stage,AbcNamespace(22,')))                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  IfNotEqual(L0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLex(AbcQName('Event,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('ADDED_TO_STAGE,AbcNamespace(22,')))                          
+                                  +1|-0  GetLex(AbcQName('onAddedToStage,AbcNamespace(5,'null)))                          
+                                  +0|-3  CallPropVoid(AbcQName('addEventListener,AbcNamespace(22,')),2)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  ReturnValue()                          
+                          L0:     +1|-0  FindPropStrict(AbcQName('registerRoot,AbcNamespace(5,'null)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('stage,AbcNamespace(22,')))                          
+                                  +0|-2  CallPropVoid(AbcQName('registerRoot,AbcNamespace(5,'null)),1)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('forwardMouseEvent,AbcNamespace(5,'null))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Method:                  
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                      Parameter:                       
+                        Type: AbcQName('MouseEvent,AbcNamespace(22,'flash.events))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 13                      
+                      Locals: 2                      
+                      InitScopeDepth: 6                      
+                      MaxScopeDepth: 7                      
+                      Bytecode:                      
+                        operandStack: 13                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        47 operation(s):                        
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  GetLex(AbcQName('isEnable,AbcNamespace(5,'null)))                          
+                                  +1|-0  PushFalse()                          
+                                  +0|-2  IfNotEqual(L0)                          
+                                  +0|-0  ReturnVoid()                          
+                          L0:     +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('target,AbcNamespace(22,')))                          
+                                  +0|-2  SetProperty(AbcQName('target,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('mousePt,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('stageX,AbcNamespace(22,')))                          
+                                  +0|-2  SetProperty(AbcQName('x,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('mousePt,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('stageY,AbcNamespace(22,')))                          
+                                  +0|-2  SetProperty(AbcQName('y,AbcNamespace(22,')))                          
+                                  +1|-0  FindPropStrict(AbcQName('dispatchEvent,AbcNamespace(22,')))                          
+                                  +1|-0  FindPropStrict(AbcQName('MouseEvent,AbcNamespace(22,'flash.events)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('type,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('bubbles,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('cancelable,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('stageX,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('stageY,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('relatedObject,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('ctrlKey,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('altKey,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('shiftKey,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('buttonDown,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('delta,AbcNamespace(22,')))                          
+                                  +1|-12  ConstructProp(AbcQName('MouseEvent,AbcNamespace(22,'flash.events)),11)                          
+                                  +0|-2  CallPropVoid(AbcQName('dispatchEvent,AbcNamespace(22,')),1)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('disable,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Method:                  
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 1                      
+                      InitScopeDepth: 6                      
+                      MaxScopeDepth: 7                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        6 operation(s):                        
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  FindProperty(AbcQName('isEnable,AbcNamespace(5,'null)))                          
+                                  +1|-0  PushFalse()                          
+                                  +0|-2  InitProperty(AbcQName('isEnable,AbcNamespace(5,'null)))                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Slot:                
+                  Name: AbcQName('mousePt,AbcNamespace(22,'))                  
+                  Index: 0                  
+                  Type: AbcQName('Point,AbcNamespace(22,'flash.geom))                  
+                Trait Method:                
+                  Name: AbcQName('up,AbcNamespace(5,'null))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Method:                  
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                      Parameter:                       
+                        Type: AbcQName('MouseEvent,AbcNamespace(22,'flash.events))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 2                      
+                      InitScopeDepth: 6                      
+                      MaxScopeDepth: 7                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        9 operation(s):                        
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  FindProperty(AbcQName('isMouseDown,AbcNamespace(22,')))                          
+                                  +1|-0  PushFalse()                          
+                                  +0|-2  InitProperty(AbcQName('isMouseDown,AbcNamespace(22,')))                          
+                                  +1|-0  FindPropStrict(AbcQName('forwardMouseEvent,AbcNamespace(5,'null)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-2  CallPropVoid(AbcQName('forwardMouseEvent,AbcNamespace(5,'null)),1)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('registerRoot,AbcNamespace(5,'null))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Method:                  
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                      Parameter:                       
+                        Type: AbcQName('Stage,AbcNamespace(22,'flash.display))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 2                      
+                      InitScopeDepth: 6                      
+                      MaxScopeDepth: 7                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        47 operation(s):                        
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('stage,AbcNamespace(5,'null)))                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  IfEqual(L0)                          
+                                  +0|-0  ReturnVoid()                          
+                          L0:     +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-2  SetProperty(AbcQName('stage,AbcNamespace(5,'null)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLex(AbcQName('MouseEvent,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('MOUSE_DOWN,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('down,AbcNamespace(5,'null)))                          
+                                  +0|-3  CallPropVoid(AbcQName('addEventListener,AbcNamespace(22,')),2)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLex(AbcQName('MouseEvent,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('MOUSE_MOVE,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('move,AbcNamespace(5,'null)))                          
+                                  +0|-3  CallPropVoid(AbcQName('addEventListener,AbcNamespace(22,')),2)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLex(AbcQName('MouseEvent,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('MOUSE_UP,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('up,AbcNamespace(5,'null)))                          
+                                  +0|-3  CallPropVoid(AbcQName('addEventListener,AbcNamespace(22,')),2)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLex(AbcQName('MouseEvent,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('CLICK,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('up,AbcNamespace(5,'null)))                          
+                                  +0|-3  CallPropVoid(AbcQName('addEventListener,AbcNamespace(22,')),2)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLex(AbcQName('KeyboardEvent,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('KEY_DOWN,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('forwardKeyboardEvent,AbcNamespace(5,'null)))                          
+                                  +0|-3  CallPropVoid(AbcQName('addEventListener,AbcNamespace(22,')),2)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLex(AbcQName('KeyboardEvent,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('KEY_UP,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('forwardKeyboardEvent,AbcNamespace(5,'null)))                          
+                                  +0|-3  CallPropVoid(AbcQName('addEventListener,AbcNamespace(22,')),2)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Slot:                
+                  Name: AbcQName('isEnable,AbcNamespace(5,'null))                  
+                  Index: 0                  
+                  Type: AbcQName('Boolean,AbcNamespace(22,'))                  
+                  Value: true                  
+                Trait Method:                
+                  Name: AbcQName('forwardKeyboardEvent,AbcNamespace(5,'null))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Method:                  
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                      Parameter:                       
+                        Type: AbcQName('KeyboardEvent,AbcNamespace(22,'flash.events))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 2                      
+                      InitScopeDepth: 6                      
+                      MaxScopeDepth: 7                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        14 operation(s):                        
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  GetLex(AbcQName('isEnable,AbcNamespace(5,'null)))                          
+                                  +1|-0  PushFalse()                          
+                                  +0|-2  IfNotEqual(L0)                          
+                                  +0|-0  ReturnVoid()                          
+                          L0:     +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('target,AbcNamespace(22,')))                          
+                                  +0|-2  SetProperty(AbcQName('target,AbcNamespace(22,')))                          
+                                  +1|-0  FindPropStrict(AbcQName('dispatchEvent,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-2  CallPropVoid(AbcQName('dispatchEvent,AbcNamespace(22,')),1)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('onAddedToStage,AbcNamespace(5,'null))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Method:                  
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                      Parameter:                       
+                        Type: AbcQName('Event,AbcNamespace(22,'flash.events))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 2                      
+                      InitScopeDepth: 6                      
+                      MaxScopeDepth: 7                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        18 operation(s):                        
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  FindPropStrict(AbcQName('InteractiveObject,AbcNamespace(22,'flash.display)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('target,AbcNamespace(22,')))                          
+                                  +1|-2  CallProperty(AbcQName('InteractiveObject,AbcNamespace(22,'flash.display)),1)                          
+                                  +1|-0  GetLex(AbcQName('Event,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('ADDED_TO_STAGE,AbcNamespace(22,')))                          
+                                  +1|-0  GetLex(AbcQName('onAddedToStage,AbcNamespace(5,'null)))                          
+                                  +0|-3  CallPropVoid(AbcQName('removeEventListener,AbcNamespace(22,')),2)                          
+                                  +1|-0  FindPropStrict(AbcQName('registerRoot,AbcNamespace(5,'null)))                          
+                                  +1|-0  FindPropStrict(AbcQName('InteractiveObject,AbcNamespace(22,'flash.display)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('target,AbcNamespace(22,')))                          
+                                  +1|-2  CallProperty(AbcQName('InteractiveObject,AbcNamespace(22,'flash.display)),1)                          
+                                  +1|-1  GetProperty(AbcQName('stage,AbcNamespace(22,')))                          
+                                  +0|-2  CallPropVoid(AbcQName('registerRoot,AbcNamespace(5,'null)),1)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Slot:                
+                  Name: AbcQName('target,AbcNamespace(22,'))                  
+                  Index: 0                  
+                  Type: AbcQName('Object,AbcNamespace(22,'))                  
+                Trait Method:                
+                  Name: AbcQName('addEventListener,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: true                  
+                  Method:                  
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: true                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                      Parameter:                       
+                        Type: AbcQName('String,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Type: AbcQName('Function,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Type: AbcQName('Boolean,AbcNamespace(22,'))                        
+                        Optional: true                        
+                        Default: false                        
+                      Parameter:                       
+                        Type: AbcQName('int,AbcNamespace(22,'))                        
+                        Optional: true                        
+                        Default: 0                        
+                      Parameter:                       
+                        Type: AbcQName('Boolean,AbcNamespace(22,'))                        
+                        Optional: true                        
+                        Default: false                        
+                    Method Body:                    
+                      Max Stack: 6                      
+                      Locals: 6                      
+                      InitScopeDepth: 6                      
+                      MaxScopeDepth: 7                      
+                      Bytecode:                      
+                        operandStack: 6                        
+                        scopeStack:   1                        
+                        localCount:   6                        
+                        0 exception(s):                        
+                        12 operation(s):                        
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-1  Pop()                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  GetLocal(5)                          
+                                  +0|-6  CallSuperVoid(AbcQName('addEventListener,AbcNamespace(22,')),5)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('getObjectsUnderPoint,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Method:                  
+                    Return Type: AbcQName('Array,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 1                      
+                      InitScopeDepth: 6                      
+                      MaxScopeDepth: 7                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        7 operation(s):                        
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('stage,AbcNamespace(5,'null)))                          
+                                  +1|-0  GetLex(AbcQName('mousePt,AbcNamespace(22,')))                          
+                                  +1|-2  CallProperty(AbcQName('getObjectsUnderPoint,AbcNamespace(22,')),1)                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('move,AbcNamespace(5,'null))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Method:                  
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                      Parameter:                       
+                        Type: AbcQName('MouseEvent,AbcNamespace(22,'flash.events))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 2                      
+                      InitScopeDepth: 6                      
+                      MaxScopeDepth: 7                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        11 operation(s):                        
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLex(AbcQName('MouseEvent,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('MOUSE_MOVE,AbcNamespace(22,')))                          
+                                  +1|-2  CallProperty(AbcQName('hasEventListener,AbcNamespace(22,')),1)                          
+                                  +0|-1  IfFalse(L0)                          
+                                  +1|-0  FindPropStrict(AbcQName('forwardMouseEvent,AbcNamespace(5,'null)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-2  CallPropVoid(AbcQName('forwardMouseEvent,AbcNamespace(5,'null)),1)                          
+                          L0:     +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('down,AbcNamespace(5,'null))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Method:                  
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                      Parameter:                       
+                        Type: AbcQName('MouseEvent,AbcNamespace(22,'flash.events))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 2                      
+                      InitScopeDepth: 6                      
+                      MaxScopeDepth: 7                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        9 operation(s):                        
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  FindProperty(AbcQName('isMouseDown,AbcNamespace(22,')))                          
+                                  +1|-0  PushTrue()                          
+                                  +0|-2  InitProperty(AbcQName('isMouseDown,AbcNamespace(22,')))                          
+                                  +1|-0  FindPropStrict(AbcQName('forwardMouseEvent,AbcNamespace(5,'null)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-2  CallPropVoid(AbcQName('forwardMouseEvent,AbcNamespace(5,'null)),1)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Slot:                
+                  Name: AbcQName('isMouseDown,AbcNamespace(22,'))                  
+                  Index: 0                  
+                  Type: AbcQName('Boolean,AbcNamespace(22,'))                  
+                  Value: false                  
+                Trait Slot:                
+                  Name: AbcQName('stage,AbcNamespace(5,'null))                  
+                  Index: 0                  
+                  Type: AbcQName('Stage,AbcNamespace(22,'flash.display))                  

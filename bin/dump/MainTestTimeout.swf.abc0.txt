@@ -1,0 +1,199 @@
+Abc:
+  4 method(s), 0 metadata, 1 type(s), 1 script(s)  
+  ConstantPool:  
+    1 integer(s):    
+      0      
+    1 uint(s):    
+      0      
+    1 double(s):    
+      NaN      
+    16 string(s):    
+      "null"      
+      ""      
+      "MainTestTimeout/MainTestTimeout"      
+      "void"      
+      "MainTestTimeout/test"      
+      "MainTestTimeout"      
+      "flash.display"      
+      "Sprite"      
+      "test"      
+      "C:\project\doot-test\src;;MainTestTimeout.as"      
+      "Object"      
+      "flash.events"      
+      "EventDispatcher"      
+      "DisplayObject"      
+      "InteractiveObject"      
+      "DisplayObjectContainer"      
+    5 namespace(s):    
+      AbcNamespace(0,'null)      
+      AbcNamespace(22,')      
+      AbcNamespace(22,'flash.display)      
+      AbcNamespace(24,'MainTestTimeout)      
+      AbcNamespace(22,'flash.events)      
+    1 namespaceset(s):    
+      AbcNSSet([AbcNamespace(0,'null)])      
+    10 multiname(s):    
+      AbcQName('null,AbcNamespace(0,'null))      
+      AbcQName('void,AbcNamespace(22,'))      
+      AbcQName('MainTestTimeout,AbcNamespace(22,'))      
+      AbcQName('Sprite,AbcNamespace(22,'flash.display))      
+      AbcQName('test,AbcNamespace(22,'))      
+      AbcQName('Object,AbcNamespace(22,'))      
+      AbcQName('EventDispatcher,AbcNamespace(22,'flash.events))      
+      AbcQName('DisplayObject,AbcNamespace(22,'flash.display))      
+      AbcQName('InteractiveObject,AbcNamespace(22,'flash.display))      
+      AbcQName('DisplayObjectContainer,AbcNamespace(22,'flash.display))      
+  Functions:  
+  Metadata:  
+  Scripts:  
+    Script:    
+      Init:      
+        Method:        
+          Name:           
+          Return Type: AbcQName('null,AbcNamespace(0,'null))          
+          Needs Arguments: false          
+          Needs Rest: false          
+          Needs Activation: false          
+          Has Optional Parameters: false          
+          Ignore Rest: false          
+          Is Native: false          
+          DXNS: false          
+          Has Parameter Names: false          
+          Parameters:          
+          Method Body:          
+            Max Stack: 2            
+            Locals: 1            
+            InitScopeDepth: 1            
+            MaxScopeDepth: 8            
+            Bytecode:            
+              operandStack: 2              
+              scopeStack:   7              
+              localCount:   1              
+              0 exception(s):              
+              25 operation(s):              
+                        +1|-0  GetLocal(0)                
+                        +0|-1  PushScope()                
+                        +1|-0  GetScopeObject(0)                
+                        +1|-0  GetLex(AbcQName('Object,AbcNamespace(22,')))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('EventDispatcher,AbcNamespace(22,'flash.events)))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('DisplayObject,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('InteractiveObject,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('DisplayObjectContainer,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('Sprite,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  GetLex(AbcQName('Sprite,AbcNamespace(22,'flash.display)))                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('MainTestTimeout,AbcNamespace(22,'))]])                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-2  InitProperty(AbcQName('MainTestTimeout,AbcNamespace(22,')))                
+                        +0|-0  ReturnVoid()                
+      Traits:      
+        Trait Class:        
+          Name: AbcQName('MainTestTimeout,AbcNamespace(22,'))          
+          Index: 1          
+          Type:          
+            Class:             
+              Method:              
+                Name:                 
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 1                  
+                  Locals: 1                  
+                  InitScopeDepth: 8                  
+                  MaxScopeDepth: 9                  
+                  Bytecode:                  
+                    operandStack: 1                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    3 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  ReturnVoid()                      
+            Instance:            
+              Name: AbcQName('MainTestTimeout,AbcNamespace(22,'))              
+              Base: AbcQName('Sprite,AbcNamespace(22,'flash.display))              
+              Is Sealed: true              
+              Is Final: false              
+              Is Interface false              
+              Nullable: true              
+              Protected Namespace: AbcNamespace(24,'MainTestTimeout)              
+              Interfaces:               
+              Method:              
+                Name: MainTestTimeout/MainTestTimeout                
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 1                  
+                  Locals: 1                  
+                  InitScopeDepth: 9                  
+                  MaxScopeDepth: 10                  
+                  Bytecode:                  
+                    operandStack: 1                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    5 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  ConstructSuper(0)                      
+                              +0|-0  ReturnVoid()                      
+              Traits:              
+                Trait Method:                
+                  Name: AbcQName('test,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Method:                  
+                    Name: MainTestTimeout/test                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 1                      
+                      Locals: 1                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 1                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        3 operation(s):                        
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  ReturnVoid()                          

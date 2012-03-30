@@ -17,7 +17,7 @@
 		public function MainSpriteSelectable(){
 			UserInput.instance().setRoot(this);
 			UserInput.instance().when(UserInput.MOUSE_UP, deselect);
-			
+
 			spriteSelectHighlight = new SpriteSelectedHighlight();
 
 			var mc:SpriteSelectable;
