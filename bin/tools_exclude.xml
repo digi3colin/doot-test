@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<excludeAssets> 
+    <asset name="fl.livepreview.LivePreviewParent" /> 
+    <asset name="com.fastframework.*" />
+    <asset name="doot.model.UserInput" />
+</excludeAssets>
