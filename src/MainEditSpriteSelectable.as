@@ -8,7 +8,6 @@
 
 	import flash.display.DisplayObject;
 	import flash.display.Sprite;
-	import flash.events.Event;
 	/**
 	 * @author Digi3Studio - Colin Leung
 	 */
@@ -19,9 +18,11 @@
 		private var mcUserSprites:Sprite;
 		private var mcEditToolLayer:Sprite;
 
-		private var controllerEditTool:ControllerEditTool;
+		private var controllerEditTool:EditToolController;
 
 		public function MainEditSpriteSelectable() {
+			this.stage.frameRate = 30;
+
 			UserInput.instance().setRoot(this);
 			//seperate the sprite selectable and edit tools in different layer.
 			this.addChild(mcUserSprites = new Sprite());
@@ -37,19 +38,19 @@
 			//bring the selected sprite to front;
 			SpriteSelected.instance().when(SpriteSelected.SELECT, bringToFront);
 
-			var viewEditTool:EditTool = new EditTool();
+			var viewEditTool:EditTool = new asset.EditTool();
 			mcEditToolLayer.addChild(viewEditTool);
-			controllerEditTool = new ControllerEditTool(SpriteSelected.instance(),viewEditTool);
+			controllerEditTool = new EditToolController(SpriteSelected.instance(),viewEditTool);
 		}
 
-		private function deselect(e:Event):void{
+		private function deselect(...e):void{
 			for each(var obj:DisplayObject in UserInput.instance().getObjectsUnderPoint()){
 				if(obj is SpriteSelectable)return;
 			};
 			SpriteSelected.instance().deselect();
 		}
 
-		private function bringToFront(e:Event):void{
+		private function bringToFront(...e):void{
 			var mc:Sprite = SpriteSelected.instance().selectedSprite();
 			mc.parent.addChild(mc);
 		}
