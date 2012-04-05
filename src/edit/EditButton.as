@@ -4,10 +4,9 @@
 	import com.fastframework.core.FASTEventDispatcher;
 	import com.fastframework.core.FASTMouse;
 	import com.fastframework.core.IFASTEventDispatcher;
-	import com.fastframework.view.ButtonClip;
+	import com.fastframework.view.IButtonClip;
 	import com.fastframework.view.events.ButtonClipEvent;
 
-	import flash.display.Sprite;
 	import flash.events.Event;
 	import flash.events.MouseEvent;
 
@@ -17,32 +16,24 @@
 	 */
 	public class EditButton extends FASTEventDispatcher implements IFASTEventDispatcher{
 		private var input:UserInput=UserInput.instance();
-		
-		private var base : ButtonClip;
-		private var ox:Number;
-		private var oy:Number;
+
+		private var base : IButtonClip;
+		private var sx:Number;
+		private var sy:Number;
 		private var imp:IEditToolBehaviour;
-		private var mc:Sprite;
 
-		public function EditButton(mc:Sprite, imp:IEditToolBehaviour){
-			this.mc = mc;
+		public function EditButton(btn:IButtonClip, imp:IEditToolBehaviour){
 			this.imp = imp;
-			base = new ButtonClip(mc);
-			base.when(ButtonClipEvent.MOUSE_DOWN, onStartDrag);
-		}
-
-		public function pos(x:Number,y:Number):void{
-			mc.x = x>>0;
-			mc.y = y>>0;
+			base = btn.when(ButtonClipEvent.MOUSE_DOWN, onStartDrag);
 		}
 
 		private function onStartDrag(e:Event):void{
-			trace('edit btn onStartDrag');
-			ox = FASTMouse.x;
-			oy = FASTMouse.y;
+			imp.reset();
+			sx = FASTMouse.x;
+			sy = FASTMouse.y;
 
-			input.when(MouseEvent.MOUSE_MOVE, onDragging);
-			input.when(MouseEvent.MOUSE_UP, onStopDrag);
+			input.addEventListener(MouseEvent.MOUSE_MOVE, onDragging);
+			input.addEventListener(MouseEvent.MOUSE_UP, onStopDrag);
 
 			dispatchEvent(new Event(MouseEvent.MOUSE_DOWN));
 		}
@@ -57,20 +48,7 @@
 		}
 
 		private function onDragging(e:MouseEvent):void{
-			imp.move(
-				input.mousePt.x - ox,
-				input.mousePt.y - oy
-				);
-
-			ox = input.mousePt.x;
-			oy = input.mousePt.y;
-		}
-
-		public function show():void{
-			mc.visible = true;
-		}
-		public function hide():void{
-			mc.visible = false;
+			imp.move(FASTMouse.x, FASTMouse.y,sx,sy);
 		}
 	}
 }

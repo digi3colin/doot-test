@@ -15,7 +15,10 @@
 			SpriteSelected.instance().deselect();
 		}
 
-		public function move(x : Number, y : Number) : void {
+		public function move(x : Number, y : Number, ox : Number, oy : Number) : void {
+		}
+
+		public function reset() : void {
 		}
 	}
 }

@@ -9,6 +9,9 @@
 	import edit.editBehaviour.EditRotate;
 	import edit.editBehaviour.EditScale;
 
+	import com.fastframework.view.ButtonClip;
+
+	import flash.display.Sprite;
 	import flash.events.MouseEvent;
 	import flash.events.TimerEvent;
 	import flash.geom.Point;
@@ -18,6 +21,7 @@
 	 * @author Digi3Studio - Colin Leung
 	 */
 	public class EditToolController{
+		//manage show hide of the Edit tool
 		private var delayShowAll:Number = 500;
 		private var timerShowAll:Timer;
 		
@@ -32,13 +36,13 @@
 			this.view = view;
 			this.model = model;
 
-			btnRotate 	= new EditButton(view.btn_rotate,new EditRotate());
+			btnRotate 	= new EditButton(new ButtonClip(view.btn_rotate),new EditRotate());
 
-			btnMove 	= new EditButton(view.btn_move ,new EditMove());
+			btnMove 	= new EditButton(new ButtonClip(view.btn_move),new EditMove());
 			btnMove.when(MouseEvent.MOUSE_DOWN, watchTargetSprite);
 			btnMove.when(MouseEvent.MOUSE_UP, stopWatchTargetSprite);
 
-			btnScale 	= new EditButton(view.btn_scale,new EditScale());
+			btnScale 	= new EditButton(new ButtonClip(view.btn_scale),new EditScale());
 
 			model.when(SpriteSelected.SELECT, spriteSelected);
 			model.when(SpriteSelected.DESELECT, onDeselect);
@@ -96,9 +100,14 @@
 //			var pos:Point = SpriteSelectable.selected.getCornerTopRight();
 			var center:Point = targetSprite.getGlobalCenter();
 
-			btnMove.pos(center.x,center.y);
-			btnRotate.pos(center.x-20,center.y);
-			btnScale.pos(center.x+20,center.y);
+			pos(this.view.btn_move,  center.x,   center.y);
+			pos(this.view.btn_rotate,center.x-20,center.y);
+			pos(this.view.btn_scale, center.x+20,center.y);
+		}
+		
+		private function pos(mc:Sprite,x:Number,y:Number):void{
+			mc.x = x;
+			mc.y = y;
 		}
 	}
 }

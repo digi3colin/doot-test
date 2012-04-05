@@ -3,7 +3,8 @@
 	 * @author Digi3Studio - Colin Leung
 	 */
 	public interface IEditToolBehaviour {
-		function move(x:Number,y:Number):void;
+		function reset():void;
 		function click():void;
+		function move(x:Number,y:Number,ox:Number,oy:Number):void;
 	}
 }
