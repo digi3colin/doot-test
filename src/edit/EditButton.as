@@ -2,6 +2,7 @@
 	import doot.model.UserInput;
 
 	import com.fastframework.core.FASTEventDispatcher;
+	import com.fastframework.core.FASTMouse;
 	import com.fastframework.core.IFASTEventDispatcher;
 	import com.fastframework.view.ButtonClip;
 	import com.fastframework.view.events.ButtonClipEvent;
@@ -35,10 +36,10 @@
 			mc.y = y>>0;
 		}
 
-		private function onStartDrag(e:ButtonClipEvent):void{
+		private function onStartDrag(e:Event):void{
 			trace('edit btn onStartDrag');
-			ox = e.mouseX;
-			oy = e.mouseY;
+			ox = FASTMouse.x;
+			oy = FASTMouse.y;
 
 			input.when(MouseEvent.MOUSE_MOVE, onDragging);
 			input.when(MouseEvent.MOUSE_UP, onStopDrag);
@@ -46,7 +47,7 @@
 			dispatchEvent(new Event(MouseEvent.MOUSE_DOWN));
 		}
 
-		private function onStopDrag(e:MouseEvent):void{
+		private function onStopDrag(e:Event):void{
 			imp.click();
 			input.removeEventListener(MouseEvent.MOUSE_MOVE, onDragging);
 			input.removeEventListener(MouseEvent.MOUSE_UP, onStopDrag);
