@@ -116,6 +116,7 @@
 }
 
 
+import com.fastframework.view.IButtonClip;
 import com.fastframework.view.IButtonElement;
 
 import flash.events.Event;
@@ -136,5 +137,9 @@ class ButtonElement implements IButtonElement{
 
 	public function buttonReset(e : Event) : void {
 		this.target = e.target;
+	}
+
+	public function init(btn : IButtonClip) : void {
+		
 	}
 }

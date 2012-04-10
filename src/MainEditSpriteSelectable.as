@@ -1,11 +1,12 @@
 ﻿package {
 	import asset.EditTool;
-	import asset.StampCake;
+
 	import doot.model.UserInput;
 	import doot.sprite.SpriteSelectable;
 	import doot.sprite.SpriteSelected;
 	import doot.sprite.SpriteSelectedHighlight;
 	import doot.sprite.edit.EditToolController;
+
 	import flash.display.DisplayObject;
 	import flash.display.Sprite;
 
