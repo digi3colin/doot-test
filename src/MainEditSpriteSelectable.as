@@ -1,5 +1,6 @@
 ﻿package {
 	import asset.EditTool;
+	import asset.StampCake;
 
 	import doot.model.UserInput;
 	import doot.sprite.SpriteSelectable;
