@@ -1,9 +1,8 @@
 ﻿package edit.editBehaviour {
 	import doot.sprite.SpriteSelected;
+	import doot.utils.FASTMouse;
 
 	import edit.IEditToolBehaviour;
-
-	import com.fastframework.core.FASTMouse;
 
 	/**
 	 * @author Digi3Studio - Colin Leung

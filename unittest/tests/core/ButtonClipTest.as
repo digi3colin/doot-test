@@ -1,9 +1,9 @@
 ﻿package tests.core {
 	import asunit.framework.TestCase;
 
-	import com.fastframework.view.ButtonClip;
-	import com.fastframework.view.IButtonClip;
-	import com.fastframework.view.events.ButtonClipEvent;
+	import doot.view.ButtonClip;
+	import doot.view.IButtonClip;
+	import doot.view.events.ButtonClipEvent;
 
 	import flash.display.SimpleButton;
 	import flash.display.Sprite;
@@ -116,7 +116,8 @@
 }
 
 
-import com.fastframework.view.IButtonElement;
+import doot.view.IButtonClip;
+import doot.view.IButtonElement;
 
 import flash.events.Event;
 class ButtonElement implements IButtonElement{
@@ -136,5 +137,8 @@ class ButtonElement implements IButtonElement{
 
 	public function buttonReset(e : Event) : void {
 		this.target = e.target;
+	}
+
+	public function init(btn : IButtonClip) : void {
 	}
 }

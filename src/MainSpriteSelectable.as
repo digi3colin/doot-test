@@ -28,7 +28,7 @@
 				mc.graphics.drawCircle(0, 0, 30);
 			}
 
-			SpriteSelected.instance().when(SpriteSelected.SELECT, bringToFront);
+			SpriteSelected.instance().when(SpriteSelected.EVENT_SELECT, bringToFront);
 		}
 
 		private function deselect(e:Event):void{

@@ -1,4 +1,4 @@
-package {
+﻿package {
 	import flash.events.KeyboardEvent;
 	import flash.utils.Dictionary;
 	import flash.display.Sprite;

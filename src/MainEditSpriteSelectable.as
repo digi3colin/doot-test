@@ -6,8 +6,12 @@
 	import doot.sprite.SpriteSelected;
 	import doot.sprite.SpriteSelectedHighlight;
 
+	import edit.EditToolController;
+
 	import flash.display.DisplayObject;
 	import flash.display.Sprite;
+
+
 	/**
 	 * @author Digi3Studio - Colin Leung
 	 */
@@ -36,10 +40,10 @@
 			//click on stage to deselect;
 			UserInput.instance().when(UserInput.MOUSE_UP, deselect);
 			//bring the selected sprite to front;
-			SpriteSelected.instance().when(SpriteSelected.SELECT, bringToFront);
+			SpriteSelected.instance().when(SpriteSelected.EVENT_SELECT, bringToFront);
 
 			var viewEditTool:EditTool = new asset.EditTool();
-			mcEditToolLayer.addChild(viewEditTool);
+			mcEditToolLayer.addChild(viewEditTool.btn_move);
 			controllerEditTool = new EditToolController(SpriteSelected.instance(),viewEditTool);
 		}
 

@@ -1,21 +1,23 @@
-﻿package {
+﻿package edit {
 	import asset.EditTool;
 
 	import doot.sprite.SpriteSelectable;
 	import doot.sprite.SpriteSelected;
+	import doot.view.ButtonClip;
 
-	import edit.EditButton;
 	import edit.editBehaviour.EditMove;
 	import edit.editBehaviour.EditRotate;
 	import edit.editBehaviour.EditScale;
-
-	import com.fastframework.view.ButtonClip;
 
 	import flash.display.Sprite;
 	import flash.events.MouseEvent;
 	import flash.events.TimerEvent;
 	import flash.geom.Point;
 	import flash.utils.Timer;
+
+
+
+
 
 	/**
 	 * @author Digi3Studio - Colin Leung
@@ -44,8 +46,8 @@
 
 			btnScale 	= new EditButton(new ButtonClip(view.btn_scale),new EditScale());
 
-			model.when(SpriteSelected.SELECT, spriteSelected);
-			model.when(SpriteSelected.DESELECT, onDeselect);
+			model.when(SpriteSelected.EVENT_SELECT, spriteSelected);
+			model.when(SpriteSelected.EVENT_DESELECT, onDeselect);
 
 			timerShowAll = new Timer(delayShowAll,1);
 			timerShowAll.addEventListener(TimerEvent.TIMER, showAllTool, false, 0, true);

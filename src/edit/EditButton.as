@@ -1,11 +1,11 @@
 ﻿package edit {
 	import doot.model.UserInput;
+	import doot.utils.FASTMouse;
+	import doot.view.IButtonClip;
+	import doot.view.events.ButtonClipEvent;
 
 	import com.fastframework.core.FASTEventDispatcher;
-	import com.fastframework.core.FASTMouse;
 	import com.fastframework.core.IFASTEventDispatcher;
-	import com.fastframework.view.IButtonClip;
-	import com.fastframework.view.events.ButtonClipEvent;
 
 	import flash.events.Event;
 	import flash.events.MouseEvent;
