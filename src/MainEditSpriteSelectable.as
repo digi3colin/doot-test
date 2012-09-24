@@ -1,10 +1,12 @@
 ﻿package {
 	import asset.EditTool;
+	import asset.StampCake;
 
 	import doot.model.UserInput;
 	import doot.sprite.SpriteSelectable;
 	import doot.sprite.SpriteSelected;
 	import doot.sprite.SpriteSelectedHighlight;
+	import doot.sprite.edit.EditToolController;
 
 	import edit.EditToolController;
 
@@ -62,9 +64,9 @@
 		private function createSpriteSelectables():void{
 			var mc:SpriteSelectable;
 			for(var i:int=0;i<10;i++){
-				mcUserSprites.addChild(mc = new SpriteSelectable(i*40,i*40));
+				mcUserSprites.addChild(mc = new StampCake(i*40,i*40));
 				mc.graphics.beginFill(Math.random()*0xFFFFFF, 1);
-				mc.graphics.drawRoundRect(-25, -25, 50, 50,5,5);
+				mc.graphics.drawRoundRect(-50, -50, 100, 100,10,10);
 			}		
 		}
 	}
